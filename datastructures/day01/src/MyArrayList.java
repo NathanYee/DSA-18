@@ -18,7 +18,7 @@ public class MyArrayList {
         size = 0;
     }
 
-    // Runtime: O(1)* - amoritization brings if from O(n) to O(1)
+    // Runtime: O(1)* - amoritization should bring it from O(n) to O(1)
     public void add(Cow c) {
         // check if array needs to be expanded, if so double size and copy
         if (size == elems.length) {
@@ -36,7 +36,7 @@ public class MyArrayList {
         return size;
     }
 
-    // TODO: Runtime: O(?)
+    // Runtime: O(1) - indexing into array is constant time
     public Cow get(int index) {
         if (indexOutOfBounds(index)){
             throw new IndexOutOfBoundsException();
@@ -44,7 +44,8 @@ public class MyArrayList {
         return elems[index];
     }
 
-    // TODO: Runtime: O(?)
+    // Runtime: O(n)
+    // TODO: shrink the size of the array to save memory if size = elems.length / 4
     public Cow remove(int index) {
         if (indexOutOfBounds(index)){
             throw new IndexOutOfBoundsException();
@@ -57,7 +58,7 @@ public class MyArrayList {
         return cagedCow;
     }
 
-    // Runtime: O(n) - dependent on the length of the array twice, but not nested
+    // Runtime: O(n) - dependent on the length of the array twice
     public void add(int index, Cow c) {
         // check if array needs to be expanded, if so double size and copy
         // TODO: insert cow at index and array copy around it for faster runtime
