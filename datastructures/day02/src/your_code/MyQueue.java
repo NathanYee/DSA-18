@@ -31,7 +31,5 @@ public class MyQueue<T> implements QueueADT<T> {
     }
 
     @Override
-    public T front() {
-        return ll.getFirst();
-    }
+    public T front() { return ll.getFirst(); }
 }

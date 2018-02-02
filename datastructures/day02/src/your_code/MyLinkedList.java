@@ -63,7 +63,7 @@ public class MyLinkedList {
             tail.next = last;
             tail = last;
         }
-        size ++;
+        size++;
     }
 
     public void addFirst(Chicken c) {
@@ -74,21 +74,19 @@ public class MyLinkedList {
             head.prev = first;
             head = first;
         }
-        size ++;
+        size++;
     }
 
     public Chicken get(int index) {
-        if (index < 0 || index >= size || size == 0) {
-            // TODO: throw exception or at least print a failure
-            return null;
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException();
         }
         return iterateToIndex(index).val;
     }
 
     public Chicken remove(int index) {
-        if (index < 0 || index >= size || size == 0) {
-            // TODO: throw exception or at least print a failure
-            return null;
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException();
         }
 
         // first check if we are removing head or tail

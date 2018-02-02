@@ -8,7 +8,7 @@ import java.util.LinkedList;
  */
 public class MyStack implements StackADT<Integer> {
 
-    private LinkedList<Integer> mS;
+    private LinkedList<Integer> mS; // maxStack
     private LinkedList<Integer> ll;
 
     public MyStack() {
