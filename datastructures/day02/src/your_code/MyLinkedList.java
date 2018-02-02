@@ -19,7 +19,9 @@ public class MyLinkedList {
     }
 
     public MyLinkedList() {
-        // TODO
+        head = null;
+        tail = null;
+        size = 0;
     }
 
     public int size() {
@@ -38,31 +40,92 @@ public class MyLinkedList {
         return removeLast();
     }
 
+    // iterates to index and returns node
+    // does not perform error checking
+    private Node iterateToIndex(int index) {
+        Node current = head;
+        for (int i=0; i<index; i++) {
+            current = current.next;
+        }
+        return current;
+    }
+
+    private void addEmpty(Chicken c) {
+        head = new Node(c, null, null);
+        tail = head;
+    }
+
     public void addLast(Chicken c) {
-        // TODO
+        if (size() == 0) {
+            addEmpty(c);
+        } else {
+            Node last = new Node(c, tail, null);
+            tail.next = last;
+            tail = last;
+        }
+        size ++;
     }
 
     public void addFirst(Chicken c) {
-        // TODO
+        if (size() == 0) {
+            addEmpty(c);
+        } else {
+            Node first = new Node(c, null, head);
+            head.prev = first;
+            head = first;
+        }
+        size ++;
     }
 
     public Chicken get(int index) {
-        // TODO
-        return null;
+        if (index < 0 || index >= size || size == 0) {
+            // TODO: throw exception or at least print a failure
+            return null;
+        }
+        return iterateToIndex(index).val;
     }
 
     public Chicken remove(int index) {
-        // TODO
-        return null;
+        if (index < 0 || index >= size || size == 0) {
+            // TODO: throw exception or at least print a failure
+            return null;
+        }
+
+        // first check if we are removing head or tail
+        if (index == 0) { // head
+            return removeFirst();
+        } else if (index + 1 == size) { // tail
+            return removeLast();
+        }
+
+
+        Node current = iterateToIndex(index);
+        // because we have already checked that index is not
+        // at the head or tail of the linkedList
+        // there must be a prev and next node
+        current.prev.next = current.next;
+        current.next.prev = current.prev;
+        size--;
+        return current.val;
     }
 
     public Chicken removeFirst() {
-        // TODO
-        return null;
+        if (size == 0) {
+            return null;
+        }
+        Node first = head;
+        head = head.next;
+        size--;
+        return first.val;
     }
 
     public Chicken removeLast() {
-        // TODO
-        return null;
+        if (size == 0) {
+            return null;
+        }
+        Node last = tail;
+        tail = tail.prev;
+        size--;
+        return last.val;
     }
 }
