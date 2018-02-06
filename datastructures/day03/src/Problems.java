@@ -13,25 +13,19 @@ public class Problems {
     }
 
     public static List<Integer> removeKDigits(int[] A, int k) {
+        LinkedList<Integer> l = new LinkedList<>();
+        int size = A.length - k;
 
-        int needed = A.length - k;
-        int remaining = A.length;
+        for (int i=0; i<A.length; i++) {
 
-        // For now, return a List that's correct size, but contains only 0s
-        List<Integer> l = new LinkedList<>();
-        for (int i = 0; i < A.length - k; i++) {
-            // if we just have enough integers left, go ahead and fill the array
-            // this makes sure we don't return an undersized array
-            if (remaining == needed) {
-                l.add(A[i]);
-            } else if (A[i] > 0) {
-                l.add(A[i]);
-                needed--;
-                remaining--;
-            } else {
-                remaining--;
+            while (l.size() > 0 && A[i] < l.getLast() && k > 0) {
+                l.removeLast();
+                k--;
             }
+            if (l.size() < size)
+            l.addLast(A[i]);
         }
+
         return l;
     }
 
@@ -78,8 +72,21 @@ public class Problems {
     }
 
     public static String infixToPostfix(String s) {
-        // TODO
-        return null;
+        List<String> l = new ArrayList<>();
+        Stack<String> stack = new Stack<>();
+        for (int i=0; i<s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == ' ' || c == '(') {
+            } else if (c == '+' || c == '-' || c == '/' || c == '*') {
+                stack.push(s.substring(i,i+1));
+            } else if (c == ')') { // key insight: whenever we see ')' pop operator off stack
+                l.add(stack.pop());
+            } else {
+                l.add(s.substring(i, i+1));
+            }
+
+        }
+        return String.join(" ", l);
     }
 
 }

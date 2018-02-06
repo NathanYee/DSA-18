@@ -36,6 +36,14 @@ public class RemoveKDigitsTest {
     }
 
     @Test
+    public void testRemoveKDigits45() {
+        int[] in = new int[]{1, 2, 1, 4, 5, 6, 7, 8, 9};
+        Object[] out = Problems.removeKDigits(in, 5).toArray();
+        assertArrayEquals(new Integer[]{1, 1, 4, 5}, out);
+    }
+
+
+    @Test
     public void testRemoveKDigits5() {
         int[] in = new int[]{1, 4, 3, 2, 2, 1, 1, 9};
         Object[] out = Problems.removeKDigits(in, 4).toArray();

@@ -75,10 +75,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3842" />
+    <option name="x" value="962" />
     <option name="y" value="33" />
-    <option name="width" value="1914" />
-    <option name="height" value="2123" />
+    <option name="width" value="954" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -368,9 +368,6 @@
     <history-entry file="All_in_day02 - 2018.02.01 at 22h 09m 25s.xml">
       <configuration name="All in day02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest - 2018.02.01 at 21h 53m 52s.xml">
-      <configuration name="QueueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueueTest - 2018.02.01 at 21h 55m 43s.xml">
       <configuration name="QueueTest" configurationId="JUnit" />
     </history-entry>
@@ -392,10 +389,12 @@
     <history-entry file="QueueTest_testPriorityQueue - 2018.02.01 at 22h 09m 11s.xml">
       <configuration name="QueueTest.testPriorityQueue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueueTest_testPriorityQueue - 2018.02.05 at 20h 44m 48s.xml">
+      <configuration name="QueueTest.testPriorityQueue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3842" y="33" width="1914" height="2123" extended-state="6" />
-    <editor active="true" />
+    <frame x="962" y="33" width="954" height="1043" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -410,7 +409,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19005236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38210526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
