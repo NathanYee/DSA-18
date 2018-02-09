@@ -144,7 +144,6 @@ public class MyHashMap<K, V> implements Map<K, V> {
      */
     @Override
     public V remove(Object key) {
-        // TODO
         // hint: use chooseBucket() to determine which bucket the key would be
         // hint: use rehash() to appropriately grow the hashmap if needed
         if (containsKey(key)){
@@ -177,7 +176,6 @@ public class MyHashMap<K, V> implements Map<K, V> {
      * the number of buckets is divided by 4.
      */
     private void rehash(double growthFactor) {
-        // TODO
         // hint: once you have removed all values from the buckets, use put(k, v) to add them back in the correct place
         LinkedList<Entry>[] oldBuckets = buckets;
         initBuckets((int) (buckets.length * growthFactor));

@@ -19,7 +19,8 @@ public class SillyString {
 
     @Override
     public int hashCode() {
-        // TODO What is bad about this hash function??
+        // strings of the same length that contain the same characters hash to the same value
+        // O(N) time complexity
         int total = 0;
         for (int i=0; i<innerString.length(); i++) {
             total += innerString.charAt(i);
