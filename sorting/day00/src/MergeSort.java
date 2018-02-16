@@ -11,11 +11,11 @@ public class MergeSort extends SortAlgorithm {
      * Use Insertion Sort if the length of the array is <= INSERTION_THRESHOLD
      *
      * TODO
-     * Best-case runtime:
-     * Worst-case runtime:
-     * Average-case runtime:
+     * Best-case runtime: O(N log N)
+     * Worst-case runtime: O(N log N)
+     * Average-case runtime: O(N log N)
      *
-     * Space-complexity:
+     * Space-complexity: O(N)
      */
 
     @Override
