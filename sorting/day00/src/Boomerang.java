@@ -33,7 +33,7 @@ public class Boomerang {
 
                 // avoid duplicate boomerangs,
                 // boomerang only when count >= 2
-                if (dist > (double) 0 && count >= 2) {
+                if (dist > 0.0 && count >= 2) {
                     boomerangs += count * (count - 1);
                 }
             }

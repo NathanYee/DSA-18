@@ -16,7 +16,7 @@ public class QuickSort extends SortAlgorithm {
      * Worst-case runtime: O(n^2)
      * Average-case runtime: O(n log n)
      *
-     * Space-complexity: O(1)
+     * Space-complexity: O(log n)
      */
     @Override
     public int[] sort(int[] array) {
