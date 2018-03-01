@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbbcf086-3faf-4d50-8281-33c8304b80e0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/day02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../sorting/day02/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/day03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../sorting/day03/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/day03/src/CountingSort.java" afterPath="$PROJECT_DIR$/../../sorting/day03/src/CountingSort.java" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/day03/src/Problems.java" afterPath="$PROJECT_DIR$/../../sorting/day03/src/Problems.java" />
-      <change beforePath="$PROJECT_DIR$/../../sorting/day03/src/RadixSort.java" afterPath="$PROJECT_DIR$/../../sorting/day03/src/RadixSort.java" />
-    </list>
+    <list default="true" id="bbbcf086-3faf-4d50-8281-33c8304b80e0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
