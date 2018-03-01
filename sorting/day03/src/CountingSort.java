@@ -5,6 +5,7 @@ public class CountingSort {
     /**
      * Use counting sort to sort positive integer array A.
      * Runtime: O(n + k)
+     * Space: O(k)
      *
      * k: maximum element in array A
      */

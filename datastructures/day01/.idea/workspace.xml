@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765d2a9e-83e8-410f-bc97-5cc5c39a684a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../sorting/day01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../sorting/day01/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="765d2a9e-83e8-410f-bc97-5cc5c39a684a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -133,7 +131,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sorting/day01" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

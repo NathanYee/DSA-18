@@ -4,7 +4,7 @@ public class TripleSum {
 
     static int tripleSum(int arr[], int sum) {
         int count = 0;
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(); // values, index
 
         // create a hashmap of array values (keys) to indices (values)
         for (int i = 0; i < arr.length; i++) {
