@@ -123,6 +123,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return null;
     }
 
+    private TreeNode<T> findPredecessor(TreeNode<T> n) {
+        // TODO
+        return null;
+    }
+
     public T findSuccessor(T key) {
         TreeNode<T> n = find(root, key);
         if (n != null) {
@@ -133,13 +138,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return null;
     }
 
-    private TreeNode<T> findPredecessor(TreeNode<T> n) {
-        // TODO
-        return null;
-    }
-
     private TreeNode<T> findSuccessor(TreeNode<T> n) {
-        // TODO
+        if (isLeaf(n)) {
+            return n;
+        }
         return null;
     }
 
