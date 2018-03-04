@@ -29,14 +29,14 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     public List<T> inOrderTraversal() {
-        return inOrderTraversalRec(root);
+        return inOrderTraversal(root);
     }
 
     /**
      * traverses the BST in sorted order
      * runtime: O(n) - only visit each node once
      */
-    public List<T> inOrderTraversalRec(TreeNode<T> n) {
+    public List<T> inOrderTraversal(TreeNode<T> n) {
         // base case for leaf children
         if (isLeaf(n)) {
             List<T> l = new LinkedList<>();
@@ -49,7 +49,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
         // add smaller children
         if (n.leftChild != null) {
-            List<T> L = inOrderTraversalRec(n.leftChild);
+            List<T> L = inOrderTraversal(n.leftChild);
             l.addAll(L);
         }
 
@@ -58,7 +58,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
         // add larger children
         if (n.rightChild != null) {
-            List<T> R = inOrderTraversalRec(n.rightChild);
+            List<T> R = inOrderTraversal(n.rightChild);
             l.addAll(R);
         }
 
