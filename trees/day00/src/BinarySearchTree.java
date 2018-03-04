@@ -28,14 +28,14 @@ public class BinarySearchTree<T extends Comparable<T>> {
             add(k);
     }
 
-    public List<T> inOrderTraversal() {
-        return inOrderTraversal(root);
-    }
-
     /**
      * traverses the BST in sorted order
      * runtime: O(n) - only visit each node once
      */
+    public List<T> inOrderTraversal() {
+        return inOrderTraversal(root);
+    }
+
     public List<T> inOrderTraversal(TreeNode<T> n) {
         // base case for leaf children
         if (isLeaf(n)) {
