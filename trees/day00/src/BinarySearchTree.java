@@ -1,3 +1,5 @@
+import jdk.nashorn.api.tree.Tree;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -38,7 +40,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
     public List<T> inOrderTraversal(TreeNode<T> n) {
         // base case for leaf children
-        if (isLeaf(n)) {
+        if (n.isLeaf()) {
             List<T> l = new LinkedList<>();
             l.add(n.key);
             return l;
@@ -63,11 +65,6 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
 
         return l;
-    }
-
-    // checks if a current node is a leaf of a tree
-    public boolean isLeaf(TreeNode<T> n) {
-        return n.leftChild == null && n.rightChild == null;
     }
 
     /**
@@ -138,11 +135,35 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return null;
     }
 
-    private TreeNode<T> findSuccessor(TreeNode<T> n) {
-        if (isLeaf(n)) {
-            return n;
+    private TreeNode<T> succRightSubtree(TreeNode<T> n) {
+        if (n.leftChild != null) {
+            return succRightSubtree(n.leftChild);
         }
+        return n;
+    }
+
+    private TreeNode<T> succParents(TreeNode<T> n) {
+        // check parent
+        if (n.parent != null) {
+            // if node is left child of parent, parent is successor
+            if (n.parent.leftChild == n) {
+                return n.parent;
+            }
+            // otherwise continue going up the tree
+            return succParents(n.parent);
+        }
+        // if no parent, n is the last node in tree
         return null;
+    }
+
+    private TreeNode<T> findSuccessor(TreeNode<T> n) {
+        // search right subtree
+        if (n.rightChild != null) {
+            return succRightSubtree(n.rightChild);
+        }
+
+        // search parents
+        return succParents(n);
     }
 
     /**
