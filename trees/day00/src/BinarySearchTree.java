@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.List;
 
 public class BinarySearchTree<T extends Comparable<T>> {
@@ -28,8 +29,45 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     public List<T> inOrderTraversal() {
-        // TODO
-        return null;
+        return inOrderTraversalRec(root);
+    }
+
+    /**
+     * traverses the BST in sorted order
+     * runtime: O(n) - only visit each node once
+     */
+    public List<T> inOrderTraversalRec(TreeNode<T> n) {
+        // base case for leaf children
+        if (isLeaf(n)) {
+            List<T> l = new LinkedList<>();
+            l.add(n.key);
+            return l;
+        }
+
+        // if not a leaf, create new list
+        List<T> l = new LinkedList<>();
+
+        // add smaller children
+        if (n.leftChild != null) {
+            List<T> L = inOrderTraversalRec(n.leftChild);
+            l.addAll(L);
+        }
+
+        // add current node
+        l.add(n.key);
+
+        // add larger children
+        if (n.rightChild != null) {
+            List<T> R = inOrderTraversalRec(n.rightChild);
+            l.addAll(R);
+        }
+
+        return l;
+    }
+
+    // checks if a current node is a leaf of a tree
+    public boolean isLeaf(TreeNode<T> n) {
+        return n.leftChild == null && n.rightChild == null;
     }
 
     /**

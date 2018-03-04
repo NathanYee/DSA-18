@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b574e1c6-88c6-468f-8d09-3ca0a7b2675d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/soln/PeakFinding.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/soln/RadioTowers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/soln/Skyline.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/Isomorphic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/day00.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/src/BinarySearchTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/src/Problems.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/src/TreeNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/tests/BinarySearchTreeTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/tests/ProblemsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../trees/day00/tests/TreeUtils.java" />
-      <change beforePath="$PROJECT_DIR$/../day03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../day03/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../day03/soln/CountingSort.java" afterPath="$PROJECT_DIR$/../day03/soln/CountingSort.java" />
-      <change beforePath="$PROJECT_DIR$/../day03/src/CountingSort.java" afterPath="$PROJECT_DIR$/../day03/src/CountingSort.java" />
-    </list>
+    <list default="true" id="b574e1c6-88c6-468f-8d09-3ca0a7b2675d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -293,7 +274,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day00" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../trees/day00" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -580,7 +561,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43765903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43765903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
