@@ -28,6 +28,7 @@ public class BinarySearchTreeTest {
         }
         inputs = new Integer[5][];
 
+
         inputs[0] = new Integer[]{3,2,1,4};
         bsts[0].addAll(inputs[0]);
         assertEquals(4, bsts[0].size());

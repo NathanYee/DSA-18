@@ -120,8 +120,35 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return null;
     }
 
+    public TreeNode<T> predLeftSubtree(TreeNode<T> n) {
+        if (n.rightChild != null) {
+            return predLeftSubtree(n.rightChild);
+        }
+        return n;
+    }
+
+    private TreeNode<T> predParents(TreeNode<T> n) {
+        if (n.parent == null) {
+            return null;
+        }
+        if (n == n.parent.rightChild) {
+            return n.parent;
+        }
+        return predParents(n.parent);
+    }
+
     private TreeNode<T> findPredecessor(TreeNode<T> n) {
-        // TODO
+        // if left subtree exists, find rightmost node in left subtree
+        if (n.leftChild != null) {
+            return predLeftSubtree(n.leftChild);
+        }
+
+        // otherwise check if node has parent
+        if (n.parent != null) {
+            return predParents(n);
+        }
+
+        // node has no predecessor
         return null;
     }
 

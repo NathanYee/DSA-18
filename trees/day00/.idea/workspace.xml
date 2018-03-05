@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff3d06e5-78cc-4cc5-bb5d-ad4748ec410a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" />
+      <change beforePath="$PROJECT_DIR$/tests/BinarySearchTreeTest.java" afterPath="$PROJECT_DIR$/tests/BinarySearchTreeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,33 +20,64 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                <state relative-caret-position="-514">
+                  <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#242#243#0" expanded="true" />
-                    <element signature="e#288#289#0" expanded="true" />
-                    <element signature="e#442#484#0" expanded="true" />
-                    <element signature="e#442#484#0" expanded="true" />
-                    <element signature="e#794#795#0" expanded="true" />
-                    <element signature="e#839#840#0" expanded="true" />
-                    <element signature="e#942#1060#0" expanded="true" />
-                    <element signature="e#942#1060#0" expanded="true" />
-                    <element signature="e#971#1002#1" expanded="true" />
-                    <element signature="e#1015#1027#0" expanded="true" />
-                    <element signature="e#1015#1027#0" expanded="true" />
-                    <element signature="e#1112#1143#1" expanded="true" />
-                    <element signature="e#1224#1266#1" expanded="true" />
-                    <element signature="e#1279#1290#0" expanded="true" />
-                    <element signature="e#1279#1290#0" expanded="true" />
-                    <element signature="e#1339#1351#0" expanded="true" />
-                    <element signature="e#1339#1351#0" expanded="true" />
-                    <element signature="e#1433#1476#1" expanded="true" />
-                    <element signature="e#1489#1500#0" expanded="true" />
-                    <element signature="e#1489#1500#0" expanded="true" />
-                    <element signature="e#1631#1632#0" expanded="true" />
-                    <element signature="e#1697#1698#0" expanded="true" />
-                    <element signature="e#4026#4067#1" expanded="true" />
+                    <element signature="e#212#213#0" expanded="true" />
+                    <element signature="e#239#240#0" expanded="true" />
+                    <element signature="e#277#278#0" expanded="true" />
+                    <element signature="e#323#324#0" expanded="true" />
+                    <element signature="e#477#519#0" expanded="true" />
+                    <element signature="e#477#519#0" expanded="true" />
+                    <element signature="e#646#649#0" expanded="true" />
+                    <element signature="e#829#830#0" expanded="true" />
+                    <element signature="e#874#875#0" expanded="true" />
+                    <element signature="e#977#1096#0" expanded="true" />
+                    <element signature="e#981#991#0" expanded="true" />
+                    <element signature="e#977#1096#0" expanded="true" />
+                    <element signature="e#1007#1038#1" expanded="true" />
+                    <element signature="e#1051#1063#0" expanded="true" />
+                    <element signature="e#1051#1063#0" expanded="true" />
+                    <element signature="e#1148#1179#1" expanded="true" />
+                    <element signature="e#1260#1302#1" expanded="true" />
+                    <element signature="e#1315#1326#0" expanded="true" />
+                    <element signature="e#1315#1326#0" expanded="true" />
+                    <element signature="e#1375#1387#0" expanded="true" />
+                    <element signature="e#1375#1387#0" expanded="true" />
+                    <element signature="e#1469#1512#1" expanded="true" />
+                    <element signature="e#1525#1536#0" expanded="true" />
+                    <element signature="e#1525#1536#0" expanded="true" />
+                    <element signature="e#1904#1943#1" expanded="true" />
+                    <element signature="e#1952#2065#0" expanded="true" />
+                    <element signature="e#1952#2065#0" expanded="true" />
+                    <element signature="e#2074#2113#1" expanded="true" />
+                    <element signature="e#2122#2183#0" expanded="true" />
+                    <element signature="e#2122#2183#0" expanded="true" />
+                    <element signature="e#2315#2342#0" expanded="true" />
+                    <element signature="e#2315#2342#0" expanded="true" />
+                    <element signature="e#2390#2400#0" expanded="true" />
+                    <element signature="e#2975#3007#1" expanded="true" />
+                    <element signature="e#3045#3090#1" expanded="true" />
+                    <element signature="e#3270#3357#0" expanded="true" />
+                    <element signature="e#3270#3357#0" expanded="true" />
+                    <element signature="e#3444#3502#0" expanded="true" />
+                    <element signature="e#3444#3502#0" expanded="true" />
+                    <element signature="e#3511#3581#0" expanded="true" />
+                    <element signature="e#3511#3581#0" expanded="true" />
+                    <element signature="e#3763#3848#0" expanded="true" />
+                    <element signature="e#3763#3848#0" expanded="true" />
+                    <element signature="e#3904#3972#0" expanded="true" />
+                    <element signature="e#3904#3972#0" expanded="true" />
+                    <element signature="e#4081#4113#1" expanded="true" />
+                    <element signature="e#4151#4192#1" expanded="true" />
+                    <element signature="e#4370#4456#0" expanded="true" />
+                    <element signature="e#4370#4456#0" expanded="true" />
+                    <element signature="e#4671#4748#0" expanded="true" />
+                    <element signature="e#4671#4748#0" expanded="true" />
+                    <element signature="e#5028#5116#0" expanded="true" />
+                    <element signature="e#5028#5116#0" expanded="true" />
+                    <element signature="e#5409#5450#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -54,7 +86,7 @@
           <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
             <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Comparable.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1713">
+                <state relative-caret-position="3051">
                   <caret line="136" column="15" lean-forward="false" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
                   <folding>
                     <element signature="e#5798#5799#0" expanded="true" />
@@ -86,11 +118,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
           <file leaf-file-name="ProblemsTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1458">
+                <state relative-caret-position="1242">
                   <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -112,12 +144,21 @@
           <file leaf-file-name="BinarySearchTreeTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="783">
-                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <state relative-caret-position="502">
+                  <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1968#2005#0" expanded="true" />
-                    <element signature="e#1968#2005#0" expanded="true" />
+                    <element signature="e#555#601#1" expanded="true" />
+                    <element signature="e#1969#2006#0" expanded="true" />
+                    <element signature="e#1969#2006#0" expanded="true" />
+                    <element signature="e#2273#2306#1" expanded="true" />
+                    <element signature="e#2315#2543#0" expanded="true" />
+                    <element signature="e#2320#2330#1" expanded="true" />
+                    <element signature="e#2315#2543#0" expanded="true" />
+                    <element signature="e#2315#2543#0" expanded="true" />
+                    <element signature="e#2315#2543#0" expanded="true" />
+                    <element signature="e#2315#2543#0" expanded="true" />
+                    <element signature="e#2369#2396#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -279,6 +320,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="BinarySearchTreeTest.testPredecessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="day00" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testPredecessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -339,14 +400,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in day00" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest.testPredecessor" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in day00" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTest.testPredecessor" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in day00" />
       </list>
     </recent_temporary>
   </component>
@@ -372,17 +435,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_day00 - 2018.03.02 at 16h 23m 36s.xml">
-      <configuration name="All in day00" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest - 2018.03.04 at 12h 45m 04s.xml">
-      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest - 2018.03.04 at 12h 49m 20s.xml">
-      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTreeTest - 2018.03.04 at 12h 50m 42s.xml">
       <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest - 2018.03.05 at 13h 27m 46s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest - 2018.03.05 at 13h 32m 40s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest - 2018.03.05 at 13h 33m 48s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest - 2018.03.05 at 13h 39m 20s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testPredecessor - 2018.03.05 at 13h 34m 11s.xml">
+      <configuration name="BinarySearchTreeTest.testPredecessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testPredecessor - 2018.03.05 at 13h 35m 55s.xml">
+      <configuration name="BinarySearchTreeTest.testPredecessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testPredecessor - 2018.03.05 at 13h 36m 48s.xml">
+      <configuration name="BinarySearchTreeTest.testPredecessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testPredecessor - 2018.03.05 at 13h 38m 44s.xml">
+      <configuration name="BinarySearchTreeTest.testPredecessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testPredecessor - 2018.03.05 at 13h 38m 48s.xml">
+      <configuration name="BinarySearchTreeTest.testPredecessor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -421,7 +502,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -431,29 +514,60 @@
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#442#484#0" expanded="true" />
-            <element signature="e#442#484#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#942#1060#0" expanded="true" />
-            <element signature="e#942#1060#0" expanded="true" />
-            <element signature="e#971#1002#1" expanded="true" />
-            <element signature="e#1015#1027#0" expanded="true" />
-            <element signature="e#1015#1027#0" expanded="true" />
-            <element signature="e#1112#1143#1" expanded="true" />
-            <element signature="e#1224#1266#1" expanded="true" />
-            <element signature="e#1279#1290#0" expanded="true" />
-            <element signature="e#1279#1290#0" expanded="true" />
-            <element signature="e#1339#1351#0" expanded="true" />
-            <element signature="e#1339#1351#0" expanded="true" />
-            <element signature="e#1433#1476#1" expanded="true" />
-            <element signature="e#1489#1500#0" expanded="true" />
-            <element signature="e#1489#1500#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#4026#4067#1" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,15 +612,351 @@
           <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1968#2005#0" expanded="true" />
-            <element signature="e#1968#2005#0" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar!/org/opentest4j/ValueWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar!/org/opentest4j/AssertionFailedError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ExceptionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/AssertEquals.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/AssertionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1461">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding>
+            <element signature="e#7907#7908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1918">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3051">
+          <caret line="136" column="15" lean-forward="false" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+          <folding>
+            <element signature="e#5798#5799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
+        <state relative-caret-position="1242">
           <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -532,7 +982,7 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1713">
+        <state relative-caret-position="3051">
           <caret line="136" column="15" lean-forward="false" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
           <folding>
             <element signature="e#5798#5799#0" expanded="true" />
@@ -554,41 +1004,329 @@
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1968#2005#0" expanded="true" />
-            <element signature="e#1968#2005#0" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="-1100">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#442#484#0" expanded="true" />
-            <element signature="e#442#484#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#942#1060#0" expanded="true" />
-            <element signature="e#942#1060#0" expanded="true" />
-            <element signature="e#971#1002#1" expanded="true" />
-            <element signature="e#1015#1027#0" expanded="true" />
-            <element signature="e#1015#1027#0" expanded="true" />
-            <element signature="e#1112#1143#1" expanded="true" />
-            <element signature="e#1224#1266#1" expanded="true" />
-            <element signature="e#1279#1290#0" expanded="true" />
-            <element signature="e#1279#1290#0" expanded="true" />
-            <element signature="e#1339#1351#0" expanded="true" />
-            <element signature="e#1339#1351#0" expanded="true" />
-            <element signature="e#1433#1476#1" expanded="true" />
-            <element signature="e#1489#1500#0" expanded="true" />
-            <element signature="e#1489#1500#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#4026#4067#1" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ProblemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3051">
+          <caret line="136" column="15" lean-forward="false" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+          <folding>
+            <element signature="e#5798#5799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#477#519#0" expanded="true" />
+            <element signature="e#646#649#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#981#991#0" expanded="true" />
+            <element signature="e#977#1096#0" expanded="true" />
+            <element signature="e#1007#1038#1" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1051#1063#0" expanded="true" />
+            <element signature="e#1148#1179#1" expanded="true" />
+            <element signature="e#1260#1302#1" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1315#1326#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1375#1387#0" expanded="true" />
+            <element signature="e#1469#1512#1" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1904#1943#1" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#1952#2065#0" expanded="true" />
+            <element signature="e#2074#2113#1" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2122#2183#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2315#2342#0" expanded="true" />
+            <element signature="e#2390#2400#0" expanded="true" />
+            <element signature="e#2975#3007#1" expanded="true" />
+            <element signature="e#3045#3090#1" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3270#3357#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3444#3502#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3511#3581#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3763#3848#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#3904#3972#0" expanded="true" />
+            <element signature="e#4081#4113#1" expanded="true" />
+            <element signature="e#4151#4192#1" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4370#4456#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#4671#4748#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5028#5116#0" expanded="true" />
+            <element signature="e#5409#5450#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
           </folding>
         </state>
       </provider>
