@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff3d06e5-78cc-4cc5-bb5d-ad4748ec410a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" />
-      <change beforePath="$PROJECT_DIR$/tests/BinarySearchTreeTest.java" afterPath="$PROJECT_DIR$/tests/BinarySearchTreeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-514">
-                  <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+                <state relative-caret-position="-487">
+                  <caret line="138" column="47" lean-forward="true" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#212#213#0" expanded="true" />
@@ -61,23 +60,23 @@
                     <element signature="e#3045#3090#1" expanded="true" />
                     <element signature="e#3270#3357#0" expanded="true" />
                     <element signature="e#3270#3357#0" expanded="true" />
-                    <element signature="e#3444#3502#0" expanded="true" />
-                    <element signature="e#3444#3502#0" expanded="true" />
-                    <element signature="e#3511#3581#0" expanded="true" />
-                    <element signature="e#3511#3581#0" expanded="true" />
-                    <element signature="e#3763#3848#0" expanded="true" />
-                    <element signature="e#3763#3848#0" expanded="true" />
-                    <element signature="e#3904#3972#0" expanded="true" />
-                    <element signature="e#3904#3972#0" expanded="true" />
-                    <element signature="e#4081#4113#1" expanded="true" />
-                    <element signature="e#4151#4192#1" expanded="true" />
-                    <element signature="e#4370#4456#0" expanded="true" />
-                    <element signature="e#4370#4456#0" expanded="true" />
-                    <element signature="e#4671#4748#0" expanded="true" />
-                    <element signature="e#4671#4748#0" expanded="true" />
-                    <element signature="e#5028#5116#0" expanded="true" />
-                    <element signature="e#5028#5116#0" expanded="true" />
-                    <element signature="e#5409#5450#1" expanded="true" />
+                    <element signature="e#3481#3539#0" expanded="true" />
+                    <element signature="e#3481#3539#0" expanded="true" />
+                    <element signature="e#3581#3651#0" expanded="true" />
+                    <element signature="e#3581#3651#0" expanded="true" />
+                    <element signature="e#3881#3966#0" expanded="true" />
+                    <element signature="e#3881#3966#0" expanded="true" />
+                    <element signature="e#4022#4090#0" expanded="true" />
+                    <element signature="e#4022#4090#0" expanded="true" />
+                    <element signature="e#4199#4231#1" expanded="true" />
+                    <element signature="e#4269#4310#1" expanded="true" />
+                    <element signature="e#4488#4574#0" expanded="true" />
+                    <element signature="e#4488#4574#0" expanded="true" />
+                    <element signature="e#4789#4866#0" expanded="true" />
+                    <element signature="e#4789#4866#0" expanded="true" />
+                    <element signature="e#5146#5234#0" expanded="true" />
+                    <element signature="e#5146#5234#0" expanded="true" />
+                    <element signature="e#5527#5568#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -551,23 +550,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,23 +748,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,23 +877,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1062,23 +1061,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1126,23 +1125,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1246,10 +1245,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#601#1" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#1969#2006#0" expanded="true" />
+            <element signature="e#2273#2306#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2320#2330#1" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2315#2543#0" expanded="true" />
+            <element signature="e#2369#2396#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+        <state relative-caret-position="-487">
+          <caret line="138" column="47" lean-forward="true" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -1289,44 +1309,23 @@
             <element signature="e#3045#3090#1" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
             <element signature="e#3270#3357#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3444#3502#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3511#3581#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3763#3848#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#3904#3972#0" expanded="true" />
-            <element signature="e#4081#4113#1" expanded="true" />
-            <element signature="e#4151#4192#1" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4370#4456#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#4671#4748#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5028#5116#0" expanded="true" />
-            <element signature="e#5409#5450#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#601#1" expanded="true" />
-            <element signature="e#1969#2006#0" expanded="true" />
-            <element signature="e#1969#2006#0" expanded="true" />
-            <element signature="e#2273#2306#1" expanded="true" />
-            <element signature="e#2315#2543#0" expanded="true" />
-            <element signature="e#2320#2330#1" expanded="true" />
-            <element signature="e#2315#2543#0" expanded="true" />
-            <element signature="e#2315#2543#0" expanded="true" />
-            <element signature="e#2315#2543#0" expanded="true" />
-            <element signature="e#2315#2543#0" expanded="true" />
-            <element signature="e#2369#2396#1" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3481#3539#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3581#3651#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#3881#3966#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4022#4090#0" expanded="true" />
+            <element signature="e#4199#4231#1" expanded="true" />
+            <element signature="e#4269#4310#1" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4488#4574#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#4789#4866#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5146#5234#0" expanded="true" />
+            <element signature="e#5527#5568#1" expanded="true" />
           </folding>
         </state>
       </provider>

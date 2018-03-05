@@ -128,12 +128,15 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private TreeNode<T> predParents(TreeNode<T> n) {
+        // if no parent, return null
         if (n.parent == null) {
             return null;
         }
+        // predecessor condition
         if (n == n.parent.rightChild) {
             return n.parent;
         }
+        // otherwise keep recursing up the tree
         return predParents(n.parent);
     }
 
