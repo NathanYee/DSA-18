@@ -101,8 +101,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
             replacement = (n.hasRightChild()) ? n.rightChild : n.leftChild; // replacement is the non-null child
         else {
             // Case 3: two children
-            // TODO
-            replacement = null;
+            replacement = findSuccessor(n);
         }
 
         // Put the replacement in its correct place, and set the parent.
