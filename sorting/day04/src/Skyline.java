@@ -47,6 +47,7 @@ public class Skyline {
         int h1 = 0; int h2 = 0;
         int h = 0; int x = 0;
 
+        // iterate through skylines until one is out of skylines
         while (l1.size() > 0 && l2.size() > 0) {
             Point p1 = l1.get(0);
             Point p2 = l2.get(0);
@@ -76,8 +77,11 @@ public class Skyline {
                 l.add(new Point(x, h));
             }
         }
+
+        // add any remaining skylines
         l.addAll(l1);
         l.addAll(l2);
+
         return l;
     }
 

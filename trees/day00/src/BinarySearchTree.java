@@ -39,6 +39,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     public List<T> inOrderTraversal(TreeNode<T> n) {
+        if (n == null) {
+            return new LinkedList<>();
+        }
+
         // base case for leaf children
         if (n.isLeaf()) {
             List<T> l = new LinkedList<>();
@@ -102,6 +106,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
         else {
             // Case 3: two children
             replacement = findSuccessor(n);
+            delete(replacement);
+            replacement.moveChildrenFrom(n);
         }
 
         // Put the replacement in its correct place, and set the parent.
