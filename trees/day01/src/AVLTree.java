@@ -5,7 +5,7 @@ public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
      */
     @Override
     TreeNode<T> delete(TreeNode<T> n, T key) {
-        n = super.delete(n, key);
+        n = super.delete2(n, key);
         if (n != null) {
             // update the height of the tree using the height of the left and right child
             n.height = calcHeight(n);
