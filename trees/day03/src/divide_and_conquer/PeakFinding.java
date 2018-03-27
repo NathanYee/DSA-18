@@ -93,7 +93,7 @@ public class PeakFinding {
             case 0:
                 return new int[]{y, x};
         }
-        return new int[]{y, x};
+        return null;
     }
 
     // divide columns
@@ -114,7 +114,7 @@ public class PeakFinding {
             case 0:
                 return new int[]{y, x};
         }
-        return new int[]{y, x};
+        return null;
     }
 
     public static int[] findTwoDPeak(int[][] nums) {
