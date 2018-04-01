@@ -11,60 +11,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6124644">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="NQueens.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/NQueens.java">
+          <file leaf-file-name="CoinsOnAClock.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/CoinsOnAClock.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+                <state relative-caret-position="377">
+                  <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
                   <folding>
-                    <element signature="e#625#639#1" expanded="true" />
-                    <element signature="e#648#662#1" expanded="true" />
-                    <element signature="e#671#790#0" expanded="true" />
-                    <element signature="e#671#790#0" expanded="true" />
-                    <element signature="e#710#746#0" expanded="true" />
-                    <element signature="e#710#746#0" expanded="true" />
-                    <element signature="e#837#969#0" expanded="true" />
-                    <element signature="e#837#969#0" expanded="true" />
-                    <element signature="e#889#925#0" expanded="true" />
-                    <element signature="e#889#925#0" expanded="true" />
-                    <element signature="e#1117#1205#0" expanded="true" />
-                    <element signature="e#1122#1132#1" expanded="true" />
-                    <element signature="e#1117#1205#0" expanded="true" />
-                    <element signature="e#1117#1205#0" expanded="true" />
-                    <element signature="e#1117#1205#0" expanded="true" />
-                    <element signature="e#1117#1205#0" expanded="true" />
-                    <element signature="e#1159#1195#0" expanded="true" />
-                    <element signature="e#1159#1195#0" expanded="true" />
-                    <element signature="e#1844#1923#0" expanded="true" />
-                    <element signature="e#1844#1923#0" expanded="true" />
-                    <element signature="e#1872#1892#0" expanded="true" />
-                    <element signature="e#1872#1892#0" expanded="true" />
-                    <element signature="e#1933#2163#0" expanded="true" />
-                    <element signature="e#1938#1948#1" expanded="true" />
-                    <element signature="e#1933#2163#0" expanded="true" />
-                    <element signature="e#1933#2163#0" expanded="true" />
-                    <element signature="e#1933#2163#0" expanded="true" />
-                    <element signature="e#1933#2163#0" expanded="true" />
-                    <element signature="e#1975#2153#0" expanded="true" />
-                    <element signature="e#1975#2153#0" expanded="true" />
-                    <element signature="e#2264#2307#1" expanded="true" />
-                    <element signature="e#2289#2306#0" expanded="true" />
-                    <element signature="e#2316#2348#1" expanded="true" />
-                    <element signature="e#2357#2487#0" expanded="true" />
-                    <element signature="e#2362#2372#1" expanded="true" />
-                    <element signature="e#2357#2487#0" expanded="true" />
-                    <element signature="e#2357#2487#0" expanded="true" />
-                    <element signature="e#2357#2487#0" expanded="true" />
-                    <element signature="e#2357#2487#0" expanded="true" />
-                    <element signature="e#2399#2477#0" expanded="true" />
-                    <element signature="e#2404#2414#1" expanded="true" />
-                    <element signature="e#2399#2477#0" expanded="true" />
-                    <element signature="e#2399#2477#0" expanded="true" />
-                    <element signature="e#2399#2477#0" expanded="true" />
-                    <element signature="e#2399#2477#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#137#158#0" expanded="true" />
+                    <element signature="e#137#158#0" expanded="true" />
+                    <element signature="e#167#188#0" expanded="true" />
+                    <element signature="e#167#188#0" expanded="true" />
+                    <element signature="e#197#219#0" expanded="true" />
+                    <element signature="e#197#219#0" expanded="true" />
+                    <element signature="e#296#319#0" expanded="true" />
+                    <element signature="e#296#319#0" expanded="true" />
+                    <element signature="e#328#351#0" expanded="true" />
+                    <element signature="e#328#351#0" expanded="true" />
+                    <element signature="e#360#383#0" expanded="true" />
+                    <element signature="e#360#383#0" expanded="true" />
+                    <element signature="e#525#565#1" expanded="true" />
+                    <element signature="e#715#740#1" expanded="true" />
+                    <element signature="e#749#817#0" expanded="true" />
+                    <element signature="e#754#760#0" expanded="true" />
+                    <element signature="e#749#817#0" expanded="true" />
+                    <element signature="e#954#1076#0" expanded="true" />
+                    <element signature="e#954#1076#0" expanded="true" />
+                    <element signature="e#1004#1045#0" expanded="true" />
+                    <element signature="e#1004#1045#0" expanded="true" />
+                    <element signature="e#1444#2015#0" expanded="true" />
+                    <element signature="e#1449#1459#1" expanded="true" />
+                    <element signature="e#1444#2015#0" expanded="true" />
+                    <element signature="e#1444#2015#0" expanded="true" />
+                    <element signature="e#1444#2015#0" expanded="true" />
+                    <element signature="e#1444#2015#0" expanded="true" />
+                    <element signature="e#1497#2005#0" expanded="true" />
+                    <element signature="e#1497#2005#0" expanded="true" />
+                    <element signature="e#1533#1559#1" expanded="true" />
+                    <element signature="e#1576#1991#0" expanded="true" />
+                    <element signature="e#1576#1991#0" expanded="true" />
+                    <element signature="e#1732#1751#1" expanded="true" />
+                    <element signature="e#2132#2172#1" expanded="true" />
+                    <element signature="e#2154#2171#0" expanded="true" />
+                    <element signature="e#2181#2221#1" expanded="true" />
+                    <element signature="e#2230#2266#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -74,11 +67,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="NQueensTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/NQueensTest.java">
+          <file leaf-file-name="CoinsOnAClockTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/CoinsOnAClockTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="649">
+                  <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="77" />
                   <folding />
                 </state>
               </provider>
@@ -97,11 +90,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/CoinsOnAClock.java" />
         <option value="$PROJECT_DIR$/src/Cryptarithmetic.java" />
         <option value="$PROJECT_DIR$/test/NQueensTest.java" />
         <option value="$PROJECT_DIR$/src/Permutations.java" />
         <option value="$PROJECT_DIR$/src/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/CoinsOnAClock.java" />
       </list>
     </option>
   </component>
@@ -181,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NQueensTest">
+  <component name="RunManager" selected="JUnit.CoinsOnAClockTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -212,6 +205,26 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CoinsOnAClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="day01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoinsOnAClockTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -323,16 +336,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in day01" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PermutationsTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.NQueensTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CoinsOnAClockTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NQueensTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PermutationsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in day01" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CoinsOnAClockTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NQueensTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PermutationsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in day01" />
       </list>
     </recent_temporary>
   </component>
@@ -358,39 +373,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 00m 27s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 13m 56s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 00m 47s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 22m 59s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 01m 13s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 23m 07s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 02m 39s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 25m 10s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 10m 39s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 27m 09s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 16m 25s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 28m 44s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 23m 42s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.03.31 at 21h 29m 52s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 23m 49s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.04.01 at 13h 53m 35s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 24m 14s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.04.01 at 13h 55m 15s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NQueensTest - 2018.03.31 at 14h 24m 24s.xml">
-      <configuration name="NQueensTest" configurationId="JUnit" />
+    <history-entry file="CoinsOnAClockTest - 2018.04.01 at 13h 55m 20s.xml">
+      <configuration name="CoinsOnAClockTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="962" y="33" width="3848" height="2129" extended-state="6" />
+    <frame x="-4" y="35" width="3848" height="2129" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -426,7 +441,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CoinsOnAClock.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CoinsOnAClock.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -454,7 +483,7 @@
         <state relative-caret-position="38">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,49 +511,15 @@
           <folding>
             <element signature="e#625#639#1" expanded="true" />
             <element signature="e#648#662#1" expanded="true" />
-            <element signature="e#671#790#0" expanded="true" />
-            <element signature="e#671#790#0" expanded="true" />
-            <element signature="e#710#746#0" expanded="true" />
-            <element signature="e#710#746#0" expanded="true" />
-            <element signature="e#837#969#0" expanded="true" />
-            <element signature="e#837#969#0" expanded="true" />
-            <element signature="e#889#925#0" expanded="true" />
-            <element signature="e#889#925#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
             <element signature="e#1122#1132#1" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1159#1195#0" expanded="true" />
-            <element signature="e#1159#1195#0" expanded="true" />
-            <element signature="e#1844#1923#0" expanded="true" />
-            <element signature="e#1844#1923#0" expanded="true" />
             <element signature="e#1872#1892#0" expanded="true" />
             <element signature="e#1872#1892#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
             <element signature="e#1938#1948#1" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1975#2153#0" expanded="true" />
-            <element signature="e#1975#2153#0" expanded="true" />
             <element signature="e#2264#2307#1" expanded="true" />
             <element signature="e#2289#2306#0" expanded="true" />
             <element signature="e#2316#2348#1" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
             <element signature="e#2362#2372#1" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
             <element signature="e#2404#2414#1" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,16 +563,6 @@
         <state relative-caret-position="95">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoinsOnAClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,54 +618,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NQueens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="1007">
+          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
           <folding>
             <element signature="e#625#639#1" expanded="true" />
             <element signature="e#648#662#1" expanded="true" />
-            <element signature="e#671#790#0" expanded="true" />
-            <element signature="e#671#790#0" expanded="true" />
-            <element signature="e#710#746#0" expanded="true" />
-            <element signature="e#710#746#0" expanded="true" />
-            <element signature="e#837#969#0" expanded="true" />
-            <element signature="e#837#969#0" expanded="true" />
-            <element signature="e#889#925#0" expanded="true" />
-            <element signature="e#889#925#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
             <element signature="e#1122#1132#1" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1117#1205#0" expanded="true" />
-            <element signature="e#1159#1195#0" expanded="true" />
-            <element signature="e#1159#1195#0" expanded="true" />
-            <element signature="e#1844#1923#0" expanded="true" />
-            <element signature="e#1844#1923#0" expanded="true" />
             <element signature="e#1872#1892#0" expanded="true" />
             <element signature="e#1872#1892#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
             <element signature="e#1938#1948#1" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1933#2163#0" expanded="true" />
-            <element signature="e#1975#2153#0" expanded="true" />
-            <element signature="e#1975#2153#0" expanded="true" />
             <element signature="e#2264#2307#1" expanded="true" />
             <element signature="e#2289#2306#0" expanded="true" />
             <element signature="e#2316#2348#1" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
             <element signature="e#2362#2372#1" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2357#2487#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
             <element signature="e#2404#2414#1" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
-            <element signature="e#2399#2477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CoinsOnAClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoinsOnAClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#137#158#0" expanded="true" />
+            <element signature="e#137#158#0" expanded="true" />
+            <element signature="e#167#188#0" expanded="true" />
+            <element signature="e#167#188#0" expanded="true" />
+            <element signature="e#197#219#0" expanded="true" />
+            <element signature="e#197#219#0" expanded="true" />
+            <element signature="e#296#319#0" expanded="true" />
+            <element signature="e#296#319#0" expanded="true" />
+            <element signature="e#328#351#0" expanded="true" />
+            <element signature="e#328#351#0" expanded="true" />
+            <element signature="e#360#383#0" expanded="true" />
+            <element signature="e#360#383#0" expanded="true" />
+            <element signature="e#525#565#1" expanded="true" />
+            <element signature="e#715#740#1" expanded="true" />
+            <element signature="e#749#817#0" expanded="true" />
+            <element signature="e#754#760#0" expanded="true" />
+            <element signature="e#749#817#0" expanded="true" />
+            <element signature="e#954#1076#0" expanded="true" />
+            <element signature="e#954#1076#0" expanded="true" />
+            <element signature="e#1004#1045#0" expanded="true" />
+            <element signature="e#1004#1045#0" expanded="true" />
+            <element signature="e#1444#2015#0" expanded="true" />
+            <element signature="e#1449#1459#1" expanded="true" />
+            <element signature="e#1444#2015#0" expanded="true" />
+            <element signature="e#1444#2015#0" expanded="true" />
+            <element signature="e#1444#2015#0" expanded="true" />
+            <element signature="e#1444#2015#0" expanded="true" />
+            <element signature="e#1497#2005#0" expanded="true" />
+            <element signature="e#1497#2005#0" expanded="true" />
+            <element signature="e#1533#1559#1" expanded="true" />
+            <element signature="e#1576#1991#0" expanded="true" />
+            <element signature="e#1576#1991#0" expanded="true" />
+            <element signature="e#1732#1751#1" expanded="true" />
+            <element signature="e#2132#2172#1" expanded="true" />
+            <element signature="e#2154#2171#0" expanded="true" />
+            <element signature="e#2181#2221#1" expanded="true" />
+            <element signature="e#2230#2266#1" expanded="true" />
           </folding>
         </state>
       </provider>
