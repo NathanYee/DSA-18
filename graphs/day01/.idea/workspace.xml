@@ -17,8 +17,8 @@
           <file leaf-file-name="CoinsOnAClock.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/CoinsOnAClock.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="377">
-                  <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+                <state relative-caret-position="562">
+                  <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#137#158#0" expanded="true" />
@@ -42,22 +42,22 @@
                     <element signature="e#954#1076#0" expanded="true" />
                     <element signature="e#1004#1045#0" expanded="true" />
                     <element signature="e#1004#1045#0" expanded="true" />
-                    <element signature="e#1444#2015#0" expanded="true" />
-                    <element signature="e#1449#1459#1" expanded="true" />
-                    <element signature="e#1444#2015#0" expanded="true" />
-                    <element signature="e#1444#2015#0" expanded="true" />
-                    <element signature="e#1444#2015#0" expanded="true" />
-                    <element signature="e#1444#2015#0" expanded="true" />
-                    <element signature="e#1497#2005#0" expanded="true" />
-                    <element signature="e#1497#2005#0" expanded="true" />
-                    <element signature="e#1533#1559#1" expanded="true" />
-                    <element signature="e#1576#1991#0" expanded="true" />
-                    <element signature="e#1576#1991#0" expanded="true" />
-                    <element signature="e#1732#1751#1" expanded="true" />
-                    <element signature="e#2132#2172#1" expanded="true" />
-                    <element signature="e#2154#2171#0" expanded="true" />
-                    <element signature="e#2181#2221#1" expanded="true" />
-                    <element signature="e#2230#2266#1" expanded="true" />
+                    <element signature="e#1086#1657#0" expanded="true" />
+                    <element signature="e#1091#1101#1" expanded="true" />
+                    <element signature="e#1086#1657#0" expanded="true" />
+                    <element signature="e#1086#1657#0" expanded="true" />
+                    <element signature="e#1086#1657#0" expanded="true" />
+                    <element signature="e#1086#1657#0" expanded="true" />
+                    <element signature="e#1139#1647#0" expanded="true" />
+                    <element signature="e#1139#1647#0" expanded="true" />
+                    <element signature="e#1175#1201#1" expanded="true" />
+                    <element signature="e#1218#1633#0" expanded="true" />
+                    <element signature="e#1218#1633#0" expanded="true" />
+                    <element signature="e#1374#1393#1" expanded="true" />
+                    <element signature="e#1774#1814#1" expanded="true" />
+                    <element signature="e#1796#1813#0" expanded="true" />
+                    <element signature="e#1823#1863#1" expanded="true" />
+                    <element signature="e#1872#1908#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -416,7 +416,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940238" sideWeight="0.18489583" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20814249" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20814249" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -441,20 +441,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CoinsOnAClock.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CoinsOnAClock.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
@@ -654,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoinsOnAClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="562">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#158#0" expanded="true" />
@@ -679,22 +665,22 @@
             <element signature="e#954#1076#0" expanded="true" />
             <element signature="e#1004#1045#0" expanded="true" />
             <element signature="e#1004#1045#0" expanded="true" />
-            <element signature="e#1444#2015#0" expanded="true" />
-            <element signature="e#1449#1459#1" expanded="true" />
-            <element signature="e#1444#2015#0" expanded="true" />
-            <element signature="e#1444#2015#0" expanded="true" />
-            <element signature="e#1444#2015#0" expanded="true" />
-            <element signature="e#1444#2015#0" expanded="true" />
-            <element signature="e#1497#2005#0" expanded="true" />
-            <element signature="e#1497#2005#0" expanded="true" />
-            <element signature="e#1533#1559#1" expanded="true" />
-            <element signature="e#1576#1991#0" expanded="true" />
-            <element signature="e#1576#1991#0" expanded="true" />
-            <element signature="e#1732#1751#1" expanded="true" />
-            <element signature="e#2132#2172#1" expanded="true" />
-            <element signature="e#2154#2171#0" expanded="true" />
-            <element signature="e#2181#2221#1" expanded="true" />
-            <element signature="e#2230#2266#1" expanded="true" />
+            <element signature="e#1086#1657#0" expanded="true" />
+            <element signature="e#1091#1101#1" expanded="true" />
+            <element signature="e#1086#1657#0" expanded="true" />
+            <element signature="e#1086#1657#0" expanded="true" />
+            <element signature="e#1086#1657#0" expanded="true" />
+            <element signature="e#1086#1657#0" expanded="true" />
+            <element signature="e#1139#1647#0" expanded="true" />
+            <element signature="e#1139#1647#0" expanded="true" />
+            <element signature="e#1175#1201#1" expanded="true" />
+            <element signature="e#1218#1633#0" expanded="true" />
+            <element signature="e#1218#1633#0" expanded="true" />
+            <element signature="e#1374#1393#1" expanded="true" />
+            <element signature="e#1774#1814#1" expanded="true" />
+            <element signature="e#1796#1813#0" expanded="true" />
+            <element signature="e#1823#1863#1" expanded="true" />
+            <element signature="e#1872#1908#1" expanded="true" />
           </folding>
         </state>
       </provider>

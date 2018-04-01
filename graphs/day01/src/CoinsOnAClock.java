@@ -37,19 +37,6 @@ public class CoinsOnAClock {
             l.add(Arrays.copyOf(clock, clock.length));
             return;
         }
-//        for (int i = 0; i < clock.length; i++) {
-//            if (clock[i] == 0) {
-//                break;
-//            }
-//            if (i == clock.length - 1) {
-//
-//            }
-//        }
-//        for (char c : clock) {
-//            if (c == 0) break;
-//            l.add(Arrays.copyOf(clock, clock.length));
-//            return;
-//        }
 
         for (int i = 0; i < coins.length; i++) {
             if (coins[i] > 0) {
