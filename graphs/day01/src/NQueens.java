@@ -37,7 +37,7 @@ public class NQueens {
         return false;
     }
 
-    public static boolean checkRow(char[][] board, int r, int c) {
+    public static boolean checkCol(char[][] board, int r, int c) {
         // check rows above of current row
         for (int i = 0; i < r; i++) {
             if (board[i][c] == 'Q') return true;
@@ -46,7 +46,7 @@ public class NQueens {
     }
 
     public static boolean checkSpace(char[][] board, int r, int c) {
-        return (checkDiagonal(board, r, c) || checkRow(board, r, c));
+        return (checkDiagonal(board, r, c) || checkCol(board, r, c));
     }
 
 
@@ -64,22 +64,19 @@ public class NQueens {
         /* base case - all rows have been filled */
         if (row >= n) {
             l.add(copyOf(board));
-            return;
-        }
-
-        for (int i = 0; i < n; i++) {
-            if (! checkSpace(board, row, i)) {
-                board[row][i] = 'Q';
-                nQueensBacktrack(board, n, row + 1, l);
-                board[row][i] = '.';
+        } else {
+            for (int i = 0; i < n; i++) {
+                if (! checkSpace(board, row, i)) {
+                    board[row][i] = 'Q';
+                    nQueensBacktrack(board, n, row + 1, l);
+                    board[row][i] = '.';
+                }
             }
         }
-        
     }
 
 
     public static List<char[][]> nQueensSolutions(int n) {
-        // TODO
         List<char[][]> answers = new ArrayList<>();
         char[][] board = new char[n][n];
         for (int i = 0; i < n; i++) {
