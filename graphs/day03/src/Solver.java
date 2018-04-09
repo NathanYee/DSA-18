@@ -30,12 +30,21 @@ public class Solver {
             cost = 0;
         }
 
+        public int totalCost() {
+            return this.moves + this.cost;
+        }
+
         @Override
         public boolean equals(Object s) {
             if (s == this) return true;
             if (s == null) return false;
             if (!(s instanceof State)) return false;
             return ((State) s).board.equals(this.board);
+        }
+
+        @Override
+        public int hashCode() {
+            return this.board.tiles.hashCode();
         }
     }
 
@@ -47,13 +56,63 @@ public class Solver {
         return null;
     }
 
+    private Iterable<State> neighbors(State q) {
+        Iterable<Board> boards = q.board.neighbors();
+        List<State> states = new LinkedList<>();
+        for (Board board: boards) {
+            State u = new State(board, q.moves + 1, q);
+            u.cost = u.board.manhattan();
+            states.add(u);
+        }
+        return states;
+    }
+
     /*
      * A* Solver
      * Find a solution to the initial board using A* to generate the state tree
      * and a identify the shortest path to the the goal state
      */
     public Solver(Board initial) {
-        // TODO: Your code here
+        if (!initial.solvable()) {
+            return;
+        }
+
+        Queue<State> open = new PriorityQueue<>(5, (a,b) -> a.totalCost() - b.totalCost());
+        Map<State, Integer> openMap = new HashMap<>();
+        Map<State, Integer> closed = new HashMap();
+        open.add(new State(initial, 0, null));
+
+        while (open.peek() != null) {
+            State q = open.poll();
+            openMap.remove(q);
+
+            Iterable<State> successors = neighbors(q);
+            Set<State> ignored = new HashSet<>();
+
+            for (State u: successors) {
+                if (u.board.isGoal()) {
+                    this.minMoves = u.moves;
+                    this.solved = true;
+                    return;
+                }
+
+                // check if u is in open, and has less cost1
+                if (openMap.containsKey(u)) {
+                    if (openMap.get(u) < u.totalCost()) {
+                        ignored.add(u);
+                    }
+                } else if (closed.containsKey(u)) {
+                    if (closed.get(u) < u.totalCost()) {
+                        ignored.add(u);
+                    }
+                }
+
+                if (!ignored.contains(u)) {
+                    open.add(u);
+                }
+            }
+            closed.put(q, q.totalCost());
+        }
     }
 
     /*
@@ -61,8 +120,7 @@ public class Solver {
      * Research how to check this without exploring all states
      */
     public boolean isSolvable() {
-        // TODO: Your code here
-        return false;
+        return this.solved;
     }
 
     /*
@@ -90,6 +148,7 @@ public class Solver {
         Board initial = new Board(initState);
 
         Solver solver = new Solver(initial);
+        System.out.print(solver.minMoves);
     }
 
 
