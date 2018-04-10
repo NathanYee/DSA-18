@@ -96,6 +96,9 @@ public class Board {
         return (inversions % 2 == 0);
     }
 
+    /*
+     * checks if a tile location is within the bounds of the board
+     */
     private boolean isValidTile(int i, int j) {
         return (i >= 0 && j >= 0 && i < this.size() && j < this.size());
     }
@@ -125,7 +128,7 @@ public class Board {
      * Return all neighboring boards in the state tree
      */
     public Iterable<Board> neighbors() {
-        // locate i and j for zero
+        // locate i and j for blank (zero) tile
         int i0 = 0;
         int j0 = 0;
         rows: for (int i = 0; i < this.size(); i++) {
@@ -141,14 +144,14 @@ public class Board {
         // iterate through all possible moves for sliding
         List<Board> boards = new LinkedList<>();
 
-        // slide rows
+        // try to slide tiles horizontally
         for (int i = -1; i < 2; i+=2) { // first i = -1, then i = 1
             if (isValidTile(i0 + i, j0)) {
                 boards.add(swapTile(i0, j0, i0 + i, j0));
             }
         }
 
-        // slide columns
+        // try to slide tiles vertically
         for (int j = -1; j < 2; j+=2) {
             if (isValidTile(i0, j0+j)) {
                 boards.add(swapTile(i0, j0, i0, j0 + j));

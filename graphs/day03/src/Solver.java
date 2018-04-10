@@ -78,17 +78,15 @@ public class Solver {
         }
 
         Queue<State> open = new PriorityQueue<>(5, (a,b) -> a.totalCost() - b.totalCost());
-        Map<State, Integer> openMap = new HashMap<>();
-        Map<State, Integer> closed = new HashMap();
+        Map<State, Integer> minCostVisited = new HashMap<>();
         open.add(new State(initial, 0, null));
 
         while (open.peek() != null) {
             State q = open.poll();
-            openMap.remove(q);
 
             Iterable<State> successors = neighbors(q);
-            Set<State> ignored = new HashSet<>();
 
+            // look at each successor
             for (State u: successors) {
                 if (u.board.isGoal()) {
                     this.minMoves = u.moves;
@@ -96,22 +94,20 @@ public class Solver {
                     return;
                 }
 
-                // check if u is in open, and has less cost1
-                if (openMap.containsKey(u)) {
-                    if (openMap.get(u) < u.totalCost()) {
-                        ignored.add(u);
+                // check if we have visited u
+                // if visited cost is higher than u
+                // re-visit u
+                if (minCostVisited.containsKey(u)) {
+                    if (minCostVisited.get(u) > u.totalCost()) {
+                        open.add(u);
                     }
-                } else if (closed.containsKey(u)) {
-                    if (closed.get(u) < u.totalCost()) {
-                        ignored.add(u);
-                    }
-                }
-
-                if (!ignored.contains(u)) {
+                } else { // we have never visited u - add to open
                     open.add(u);
                 }
             }
-            closed.put(q, q.totalCost());
+
+            // add q to minCostVisited - as it is a visited node
+            minCostVisited.put(q, q.totalCost());
         }
     }
 
