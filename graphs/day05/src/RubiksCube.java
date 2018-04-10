@@ -3,16 +3,42 @@ import java.util.concurrent.ThreadLocalRandom;
 
 // use this class if you are designing your own Rubik's cube implementation
 public class RubiksCube {
+    Map<Character, Integer[]> faces = new HashMap<>();
+    HashMap<Character, Character[]> diplomacy = new HashMap<>(); // faces have diplomatic relationships with other faces
+    Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
+
+    private void initDiplomacy() {
+        Character F[] = {'L', 'U', 'R', 'D'};
+        Character U[] = {'L', 'B', 'R', 'F'};
+        Character R[] = {'F', 'U', 'B', 'D'};
+
+        diplomacy.put('F', F);
+        diplomacy.put('U', U);
+        diplomacy.put('R', R);
+    }
+
+    private void initFaces() {
+        for (int i = 0; i < faceNames.length; i++) {
+            Integer[] face = {i, i, i, i}; // ul, ur, lr, ll
+            faces.put(faceNames[i], face);
+        }
+    }
+
 
     // initialize a solved rubiks cube
     public RubiksCube() {
-        // TODO
+        initDiplomacy();
+        initFaces();
     }
 
 
     // creates a copy of the rubics cube
     public RubiksCube(RubiksCube r) {
-        // TODO
+        initDiplomacy();
+        initFaces();
+        for (int i = 0; i < faceNames.length; i++) {
+            faces.put(faceNames[i], r.faces.get(faceNames[i]).clone());
+        }
     }
 
     // return true if this rubik's cube is equal to the other rubik's cube
