@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -5,7 +6,9 @@ import java.util.concurrent.ThreadLocalRandom;
 public class RubiksCube {
     Map<Character, Integer[]> faces = new HashMap<>();
     HashMap<Character, Character[]> diplomacy = new HashMap<>(); // faces have diplomatic relationships with other faces
+    HashMap<Character, Integer[]> rotations = new HashMap<>();
     Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
+    private int solvedHash;
 
     private void initDiplomacy() {
         Character F[] = {'L', 'U', 'R', 'D'};
@@ -17,17 +20,30 @@ public class RubiksCube {
         diplomacy.put('R', R);
     }
 
+    private void initRotations() {
+        Integer F[] = {2,1,3,2,0,3,1,0};
+        Integer U[] = {0,1,0,1,0,1,0,1};
+        Integer R[] = {1,2,1,2,3,0,1,2};
+
+        rotations.put('F', F);
+        rotations.put('U', U);
+        rotations.put('R', R);
+    }
+
     private void initFaces() {
         for (int i = 0; i < faceNames.length; i++) {
             Integer[] face = {i, i, i, i}; // ul, ur, lr, ll
             faces.put(faceNames[i], face);
         }
+
+        solvedHash = this.hashCode();
     }
 
 
     // initialize a solved rubiks cube
     public RubiksCube() {
         initDiplomacy();
+        initRotations();
         initFaces();
     }
 
@@ -35,9 +51,10 @@ public class RubiksCube {
     // creates a copy of the rubics cube
     public RubiksCube(RubiksCube r) {
         initDiplomacy();
+        initRotations();
         initFaces();
-        for (int i = 0; i < faceNames.length; i++) {
-            faces.put(faceNames[i], r.faces.get(faceNames[i]).clone());
+        for (Character faceName : faceNames) {
+            faces.put(faceName, r.faces.get(faceName).clone());
         }
     }
 
@@ -47,8 +64,7 @@ public class RubiksCube {
         if (!(obj instanceof RubiksCube))
             return false;
         RubiksCube other = (RubiksCube) obj;
-        // TODO
-        return false;
+        return this.hashCode() == other.hashCode();
     }
 
     /**
@@ -62,13 +78,15 @@ public class RubiksCube {
      */
     @Override
     public int hashCode() {
-        // TODO
-        return 0;
+        int total_hash = 0;
+        for(Character face:this.faceNames) {
+            total_hash += Arrays.hashCode(this.faces.get(face));
+        }
+        return total_hash;
     }
 
     public boolean isSolved() {
-        // TODO
-        return false;
+        return hashCode() == solvedHash;
     }
 
 
@@ -85,7 +103,27 @@ public class RubiksCube {
     // Given a character in ['u', 'U', 'r', 'R', 'f', 'F'], return a new rubik's cube with the rotation applied
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
-        // TODO
+        boolean isClockwise = Character.isLowerCase(c)
+        int dir = isClockwise ? 1 : -1;
+        Character C = Character.toUpperCase(c);
+        Integer[] indeces = rotations.get(C);
+
+        for(int i = (isClockwise ? 0 : indeces.length-1); i >= 0 && i < indeces.length; i += dir * 2) {
+            int j = i + (dir * 2) % indeces.length;
+            Integer[] current = this.faces.get(diplomacy.get(C)[i / 2]);
+            Integer[] swapWith = this.faces.get(diplomacy.get(C)[j / 2]);
+
+        }
+
+        Integer faceStore;
+        for (int i = 0; i < 8; i++) {
+            int faceIdx = i / 2;
+            int j = (i + 2) % 8;
+            faceStore = this.faces.get(this.diplomacy.get(C)[j])[0];
+
+
+        }
+
         return this;
     }
 
