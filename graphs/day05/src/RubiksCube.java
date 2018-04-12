@@ -99,30 +99,60 @@ public class RubiksCube {
         return rub;
     }
 
+    void rotateFaceCounterClockwise(Integer face[])
+    {
+        Integer temp;
+        int i;
+        temp = face[0]; // Save the one that's going to be overwritten
+
+        for (i = 0; i < face.length - 1; i++) {
+            face[i] = face[i+1];
+        }
+        face[face.length-1] = temp;
+    }
+
+    void rotateFaceClockwise(Integer face[])
+    {
+        Integer temp;
+        int i;
+        temp = face[face.length-1]; // Save the one that's going to be overwritten
+
+        for (i = face.length-1; i > 0; i--) {
+            face[i] = face[i-1];
+        }
+        face[0] = temp;
+    }
 
     // Given a character in ['u', 'U', 'r', 'R', 'f', 'F'], return a new rubik's cube with the rotation applied
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
-        boolean isClockwise = Character.isLowerCase(c)
+        boolean isClockwise = Character.isLowerCase(c);
         int dir = isClockwise ? 1 : -1;
         Character C = Character.toUpperCase(c);
         Integer[] indeces = rotations.get(C);
+        LinkedList<Integer> queue = new LinkedList<>();
 
-        for(int i = (isClockwise ? 0 : indeces.length-1); i >= 0 && i < indeces.length; i += dir * 2) {
-            int j = i + (dir * 2) % indeces.length;
-            Integer[] current = this.faces.get(diplomacy.get(C)[i / 2]);
-            Integer[] swapWith = this.faces.get(diplomacy.get(C)[j / 2]);
-
+        // store all numbers that will be rotated
+        for(int i = 0; Math.abs(i) < indeces.length; i += dir) {
+            int faceIndex = Math.floorMod(i/2, 4); // Index of desired face in diplomacy
+            int j = Math.floorMod(i, indeces.length); // Wraps the index into indeces so that -1 is 7
+            System.out.println(j);
+            Character currentFace = diplomacy.get(C)[faceIndex]; // Selects the face we care about...
+            queue.addLast(faces.get(currentFace)[indeces[j]]); // ...and stores the desired element from that face at the end of the queue
         }
 
-        Integer faceStore;
-        for (int i = 0; i < 8; i++) {
-            int faceIdx = i / 2;
-            int j = (i + 2) % 8;
-            faceStore = this.faces.get(this.diplomacy.get(C)[j])[0];
-
-
+        int i = dir*2; // initialize new index as 2 away from where it started
+        // reassign all numbers that will be rotated
+        for(Integer intToRotate:queue) {
+            int faceIndex = Math.floorMod(i/2, 4);
+            int j = Math.floorMod(i, indeces.length);
+            Character currentFace = diplomacy.get(C)[faceIndex];
+            faces.get(currentFace)[indeces[j]] = intToRotate;
         }
+
+        // Rotate the face we are looking at
+        if(isClockwise) rotateFaceClockwise(faces.get(C));
+        else rotateFaceCounterClockwise(faces.get(C));
 
         return this;
     }
