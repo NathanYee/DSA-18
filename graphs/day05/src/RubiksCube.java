@@ -9,6 +9,10 @@ public class RubiksCube {
     HashMap<Character, Integer[]> rotations = new HashMap<>();
     Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
     private int solvedHash;
+    private int hash;
+    private Integer moves;
+    private RubiksCube prev = null;
+    private Character rotation = null;
 
     private void initDiplomacy() {
         Character F[] = {'L', 'U', 'R', 'D'};
@@ -56,6 +60,7 @@ public class RubiksCube {
         for (Character faceName : faceNames) {
             faces.put(faceName, r.faces.get(faceName).clone());
         }
+        this.prev = r;
     }
 
     // return true if this rubik's cube is equal to the other rubik's cube
@@ -64,7 +69,8 @@ public class RubiksCube {
         if (!(obj instanceof RubiksCube))
             return false;
         RubiksCube other = (RubiksCube) obj;
-        return this.hashCode() == other.hashCode();
+        return this.hash == other.hash;
+//        return this.hashCode() == other.hashCode();
     }
 
     /**
@@ -78,11 +84,13 @@ public class RubiksCube {
      */
     @Override
     public int hashCode() {
-        int total_hash = 0;
+        int totalHash = 1;
         for(Character face:this.faceNames) {
-            total_hash += Arrays.hashCode(this.faces.get(face));
+            for (Integer i : this.faces.get(face)) {
+                totalHash = 31 * totalHash + i;
+            }
         }
-        return total_hash;
+        return totalHash;
     }
 
     public boolean isSolved() {
@@ -99,7 +107,7 @@ public class RubiksCube {
         return rub;
     }
 
-    void rotateFaceCounterClockwise(Integer face[])
+    private void rotateFaceCounterClockwise(Integer face[])
     {
         Integer temp;
         int i;
@@ -111,7 +119,7 @@ public class RubiksCube {
         face[face.length-1] = temp;
     }
 
-    void rotateFaceClockwise(Integer face[])
+    private void rotateFaceClockwise(Integer face[])
     {
         Integer temp;
         int i;
@@ -126,6 +134,9 @@ public class RubiksCube {
     // Given a character in ['u', 'U', 'r', 'R', 'f', 'F'], return a new rubik's cube with the rotation applied
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
+        RubiksCube rotated = new RubiksCube(this);
+        rotated.rotation = c;
+
         boolean isClockwise = Character.isLowerCase(c);
         int dir = isClockwise ? 1 : -1;
         Character C = Character.toUpperCase(c);
@@ -136,7 +147,6 @@ public class RubiksCube {
         for(int i = 0; Math.abs(i) < indeces.length; i += dir) {
             int faceIndex = Math.floorMod(i/2, 4); // Index of desired face in diplomacy
             int j = Math.floorMod(i, indeces.length); // Wraps the index into indeces so that -1 is 7
-            System.out.println(j);
             Character currentFace = diplomacy.get(C)[faceIndex]; // Selects the face we care about...
             queue.addLast(faces.get(currentFace)[indeces[j]]); // ...and stores the desired element from that face at the end of the queue
         }
@@ -146,15 +156,18 @@ public class RubiksCube {
         for(Integer intToRotate:queue) {
             int faceIndex = Math.floorMod(i/2, 4);
             int j = Math.floorMod(i, indeces.length);
-            Character currentFace = diplomacy.get(C)[faceIndex];
-            faces.get(currentFace)[indeces[j]] = intToRotate;
+            Character currentFace = rotated.diplomacy.get(C)[faceIndex];
+            rotated.faces.get(currentFace)[indeces[j]] = intToRotate;
+            i+=dir;
         }
 
         // Rotate the face we are looking at
-        if(isClockwise) rotateFaceClockwise(faces.get(C));
-        else rotateFaceCounterClockwise(faces.get(C));
+        if(isClockwise) rotateFaceClockwise(rotated.faces.get(C));
+        else rotateFaceCounterClockwise(rotated.faces.get(C));
 
-        return this;
+        rotated.hash = rotated.hashCode();
+
+        return rotated;
     }
 
     // returns a random scrambled rubik's cube by applying random rotations
@@ -194,11 +207,54 @@ public class RubiksCube {
         return listTurns;
     }
 
+    // Returns all of the options for how to rotate the cube to get the next step
+    public Iterable<RubiksCube> neighbors() {
+        LinkedList<RubiksCube> neighborhood = new LinkedList<>();
+        Character singleMoves[] = {'r','R','u','U','f','F'};
+        for(Character move:singleMoves) {
+            neighborhood.add(this.rotate(move));
+        }
+        return neighborhood;
+    }
+
 
     // return the list of rotations needed to solve a rubik's cube
     public List<Character> solve() {
-        // TODO
-        return new ArrayList<>();
+//        Queue<RubiksCube> open = new PriorityQueue<>(5, Comparator.comparingInt(a -> a.moves));
+        Queue<RubiksCube> open = new LinkedList<>();
+        Map<RubiksCube, Integer> minCostVisited = new HashMap<>();
+        open.add(this);
+
+        whileLoop: while (open.peek() != null) {
+            // retrieve the lowest cost cube
+            RubiksCube q = open.poll();
+
+            // add cube to visited
+            minCostVisited.put(q, q.moves);
+
+            // visit all the neighbors
+            for (RubiksCube u : this.neighbors()) {
+                if (u.isSolved()) {
+                    break whileLoop;
+                }
+
+                if (minCostVisited.containsKey(u)) {
+                    if (minCostVisited.get(u) > u.moves) {
+                        open.add(u);
+                    }
+                } else {
+                    open.add(u);
+                }
+            }
+        }
+
+        LinkedList<Character> solution = new LinkedList<>();
+
+        while (this.prev != null) {
+            solution.addFirst(this.rotation);
+        }
+
+        return solution;
     }
 
 }
