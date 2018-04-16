@@ -126,6 +126,7 @@ public class RubiksCube {
     // Given a character in ['u', 'U', 'r', 'R', 'f', 'F'], return a new rubik's cube with the rotation applied
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
+        RubiksCube rotated = new RubiksCube(this);
         boolean isClockwise = Character.isLowerCase(c);
         int dir = isClockwise ? 1 : -1;
         Character C = Character.toUpperCase(c);
@@ -136,7 +137,6 @@ public class RubiksCube {
         for(int i = 0; Math.abs(i) < indeces.length; i += dir) {
             int faceIndex = Math.floorMod(i/2, 4); // Index of desired face in diplomacy
             int j = Math.floorMod(i, indeces.length); // Wraps the index into indeces so that -1 is 7
-            System.out.println(j);
             Character currentFace = diplomacy.get(C)[faceIndex]; // Selects the face we care about...
             queue.addLast(faces.get(currentFace)[indeces[j]]); // ...and stores the desired element from that face at the end of the queue
         }
@@ -146,15 +146,16 @@ public class RubiksCube {
         for(Integer intToRotate:queue) {
             int faceIndex = Math.floorMod(i/2, 4);
             int j = Math.floorMod(i, indeces.length);
-            Character currentFace = diplomacy.get(C)[faceIndex];
-            faces.get(currentFace)[indeces[j]] = intToRotate;
+            Character currentFace = rotated.diplomacy.get(C)[faceIndex];
+            rotated.faces.get(currentFace)[indeces[j]] = intToRotate;
+            i+=dir;
         }
 
         // Rotate the face we are looking at
-        if(isClockwise) rotateFaceClockwise(faces.get(C));
-        else rotateFaceCounterClockwise(faces.get(C));
+        if(isClockwise) rotateFaceClockwise(rotated.faces.get(C));
+        else rotateFaceCounterClockwise(rotated.faces.get(C));
 
-        return this;
+        return rotated;
     }
 
     // returns a random scrambled rubik's cube by applying random rotations
@@ -192,6 +193,16 @@ public class RubiksCube {
             }
         }
         return listTurns;
+    }
+
+    // Returns all of the options for how to rotate the cube to get the next step
+    public Iterable<RubiksCube> neighbors() {
+        LinkedList<RubiksCube> neighborhood = new LinkedList<>();
+        Character singleMoves[] = {'r','R','u','U','f','F'};
+        for(Character move:singleMoves) {
+            neighborhood.add(this.rotate(move));
+        }
+        return neighborhood;
     }
 
 
