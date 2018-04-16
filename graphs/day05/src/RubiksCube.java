@@ -138,20 +138,21 @@ public class RubiksCube {
         LinkedList<Integer> queue = new LinkedList<>();
 
         // store all numbers that will be rotated
-        for(int i = 0; Math.abs(i) < indeces.length; i += dir) {
+        for(int i = (isClockwise ? 0:7); i < indeces.length && i > -1; i += dir) {
             int faceIndex = Math.floorMod(i/2, 4); // Index of desired face in diplomacy
             int j = Math.floorMod(i, indeces.length); // Wraps the index into indeces so that -1 is 7
             Character currentFace = diplomacy.get(C)[faceIndex]; // Selects the face we care about...
             queue.addLast(faces.get(currentFace)[indeces[j]]); // ...and stores the desired element from that face at the end of the queue
         }
 
-        int i = dir*2; // initialize new index as 2 away from where it started
+        Integer clockwise[] = {2,3,4,5,6,7,0,1};
+        Integer cclockwise[] = {5,4,3,2,1,0,7,6};
         // reassign all numbers that will be rotated
-        for(Integer intToRotate:queue) {
+        for(Integer i:(isClockwise ? clockwise:cclockwise)) {
             int faceIndex = Math.floorMod(i/2, 4);
-            int j = Math.floorMod(i, indeces.length);
+
             Character currentFace = rotated.diplomacy.get(C)[faceIndex];
-            rotated.faces.get(currentFace)[indeces[j]] = intToRotate;
+            rotated.faces.get(currentFace)[indeces[i]] = queue.poll();
             i+=dir;
         }
 
