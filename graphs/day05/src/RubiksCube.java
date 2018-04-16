@@ -9,6 +9,7 @@ public class RubiksCube {
     HashMap<Character, Integer[]> rotations = new HashMap<>();
     Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
     private int solvedHash;
+    private int hash;
 
     private void initDiplomacy() {
         Character F[] = {'L', 'U', 'R', 'D'};
@@ -64,7 +65,8 @@ public class RubiksCube {
         if (!(obj instanceof RubiksCube))
             return false;
         RubiksCube other = (RubiksCube) obj;
-        return this.hashCode() == other.hashCode();
+        return this.hash == other.hash;
+//        return this.hashCode() == other.hashCode();
     }
 
     /**
@@ -78,11 +80,13 @@ public class RubiksCube {
      */
     @Override
     public int hashCode() {
-        int total_hash = 0;
+        int totalHash = 1;
         for(Character face:this.faceNames) {
-            total_hash += Arrays.hashCode(this.faces.get(face));
+            for (Integer i : this.faces.get(face)) {
+                totalHash = 31 * totalHash + i;
+            }
         }
-        return total_hash;
+        return totalHash;
     }
 
     public boolean isSolved() {
@@ -99,7 +103,7 @@ public class RubiksCube {
         return rub;
     }
 
-    void rotateFaceCounterClockwise(Integer face[])
+    private void rotateFaceCounterClockwise(Integer face[])
     {
         Integer temp;
         int i;
@@ -111,7 +115,7 @@ public class RubiksCube {
         face[face.length-1] = temp;
     }
 
-    void rotateFaceClockwise(Integer face[])
+    private void rotateFaceClockwise(Integer face[])
     {
         Integer temp;
         int i;
@@ -154,6 +158,8 @@ public class RubiksCube {
         // Rotate the face we are looking at
         if(isClockwise) rotateFaceClockwise(rotated.faces.get(C));
         else rotateFaceCounterClockwise(rotated.faces.get(C));
+
+        rotated.hash = rotated.hashCode();
 
         return rotated;
     }
