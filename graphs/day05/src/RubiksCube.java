@@ -10,6 +10,9 @@ public class RubiksCube {
     Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
     private int solvedHash;
     private int hash;
+    private Integer moves;
+    private RubiksCube prev = null;
+    private Character rotation = null;
 
     private void initDiplomacy() {
         Character F[] = {'L', 'U', 'R', 'D'};
@@ -57,6 +60,7 @@ public class RubiksCube {
         for (Character faceName : faceNames) {
             faces.put(faceName, r.faces.get(faceName).clone());
         }
+        this.prev = r;
     }
 
     // return true if this rubik's cube is equal to the other rubik's cube
@@ -131,6 +135,8 @@ public class RubiksCube {
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
         RubiksCube rotated = new RubiksCube(this);
+        rotated.rotation = c;
+
         boolean isClockwise = Character.isLowerCase(c);
         int dir = isClockwise ? 1 : -1;
         Character C = Character.toUpperCase(c);
@@ -215,8 +221,41 @@ public class RubiksCube {
 
     // return the list of rotations needed to solve a rubik's cube
     public List<Character> solve() {
-        // TODO
-        return new ArrayList<>();
+//        Queue<RubiksCube> open = new PriorityQueue<>(5, Comparator.comparingInt(a -> a.moves));
+        Queue<RubiksCube> open = new LinkedList<>();
+        Map<RubiksCube, Integer> minCostVisited = new HashMap<>();
+        open.add(this);
+
+        whileLoop: while (open.peek() != null) {
+            // retrieve the lowest cost cube
+            RubiksCube q = open.poll();
+
+            // add cube to visited
+            minCostVisited.put(q, q.moves);
+
+            // visit all the neighbors
+            for (RubiksCube u : this.neighbors()) {
+                if (u.isSolved()) {
+                    break whileLoop;
+                }
+
+                if (minCostVisited.containsKey(u)) {
+                    if (minCostVisited.get(u) > u.moves) {
+                        open.add(u);
+                    }
+                } else {
+                    open.add(u);
+                }
+            }
+        }
+
+        LinkedList<Character> solution = new LinkedList<>();
+
+        while (this.prev != null) {
+            solution.addFirst(this.rotation);
+        }
+
+        return solution;
     }
 
 }
