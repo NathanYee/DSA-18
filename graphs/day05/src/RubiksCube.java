@@ -9,7 +9,6 @@ public class RubiksCube {
     HashMap<Character, Integer[]> rotations = new HashMap<>();
     Character[] faceNames = {'F', 'U', 'L', 'R', 'B', 'D'};
     private int solvedHash;
-    private int hash;
     private Integer moves;
     private RubiksCube prev = null;
     private Character rotation = null;
@@ -49,6 +48,7 @@ public class RubiksCube {
         initDiplomacy();
         initRotations();
         initFaces();
+        this.moves = 0;
     }
 
 
@@ -60,7 +60,9 @@ public class RubiksCube {
         for (Character faceName : faceNames) {
             faces.put(faceName, r.faces.get(faceName).clone());
         }
-        this.prev = r;
+        this.prev = r.prev;
+        this.rotation = r.rotation;
+        this.moves = r.moves;
     }
 
     // return true if this rubik's cube is equal to the other rubik's cube
@@ -69,8 +71,7 @@ public class RubiksCube {
         if (!(obj instanceof RubiksCube))
             return false;
         RubiksCube other = (RubiksCube) obj;
-        return this.hash == other.hash;
-//        return this.hashCode() == other.hashCode();
+        return this.hashCode() == other.hashCode();
     }
 
     /**
@@ -135,7 +136,7 @@ public class RubiksCube {
     // Do not modify this rubik's cube.
     public RubiksCube rotate(char c) {
         RubiksCube rotated = new RubiksCube(this);
-        rotated.rotation = c;
+
 
         boolean isClockwise = Character.isLowerCase(c);
         int dir = isClockwise ? 1 : -1;
@@ -165,8 +166,6 @@ public class RubiksCube {
         // Rotate the face we are looking at
         if(isClockwise) rotateFaceClockwise(rotated.faces.get(C));
         else rotateFaceCounterClockwise(rotated.faces.get(C));
-
-        rotated.hash = rotated.hashCode();
 
         return rotated;
     }
@@ -213,7 +212,11 @@ public class RubiksCube {
         LinkedList<RubiksCube> neighborhood = new LinkedList<>();
         Character singleMoves[] = {'r','R','u','U','f','F'};
         for(Character move:singleMoves) {
-            neighborhood.add(this.rotate(move));
+            RubiksCube n = this.rotate(move);
+            n.rotation = move;
+            n.prev = this;
+            n.moves = this.moves + 1;
+            neighborhood.add(n);
         }
         return neighborhood;
     }
@@ -225,6 +228,7 @@ public class RubiksCube {
         Queue<RubiksCube> open = new LinkedList<>();
         Map<RubiksCube, Integer> minCostVisited = new HashMap<>();
         open.add(this);
+        RubiksCube last = this;
 
         whileLoop: while (open.peek() != null) {
             // retrieve the lowest cost cube
@@ -236,25 +240,31 @@ public class RubiksCube {
             // visit all the neighbors
             for (RubiksCube u : this.neighbors()) {
                 if (u.isSolved()) {
+                    last = u;
                     break whileLoop;
                 }
 
-                if (minCostVisited.containsKey(u)) {
-                    if (minCostVisited.get(u) > u.moves) {
-                        open.add(u);
-                    }
-                } else {
-                    open.add(u);
+                if (!minCostVisited.containsKey(u)) {
+                    open.offer(u);
                 }
+
+//                if (minCostVisited.containsKey(u)) {
+//                    if (minCostVisited.get(u) > u.moves) {
+//                        open.add(u);
+//                    }
+//                } else {
+//                    open.add(u);
+//                }
             }
         }
 
         LinkedList<Character> solution = new LinkedList<>();
 
-        while (this.prev != null) {
-            solution.addFirst(this.rotation);
+        while (last.prev != null) {
+            solution.addFirst(last.rotation);
+            last = last.prev;
         }
-
+        System.out.println(solution);
         return solution;
     }
 
