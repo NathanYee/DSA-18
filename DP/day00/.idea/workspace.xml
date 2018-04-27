@@ -14,67 +14,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-          <file leaf-file-name="DiceRollSum.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="DiceRollSum.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#147#196#1" expanded="true" />
-                    <element signature="e#326#370#0" expanded="true" />
-                    <element signature="e#326#370#0" expanded="true" />
-                    <element signature="e#358#369#0" expanded="true" />
-                    <element signature="e#358#369#0" expanded="true" />
-                    <element signature="e#379#399#0" expanded="true" />
-                    <element signature="e#379#399#0" expanded="true" />
-                    <element signature="e#408#429#0" expanded="true" />
-                    <element signature="e#408#429#0" expanded="true" />
-                    <element signature="e#439#459#1" expanded="true" />
-                    <element signature="e#468#634#0" expanded="true" />
-                    <element signature="e#473#483#1" expanded="true" />
-                    <element signature="e#468#634#0" expanded="true" />
-                    <element signature="e#468#634#0" expanded="true" />
-                    <element signature="e#468#634#0" expanded="true" />
-                    <element signature="e#468#634#0" expanded="true" />
-                    <element signature="e#511#550#1" expanded="true" />
-                    <element signature="e#563#587#0" expanded="true" />
-                    <element signature="e#563#587#0" expanded="true" />
-                    <element signature="e#563#587#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="648">
+                  <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="702">
-                  <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
+                  <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#188#216#0" expanded="true" />
-                    <element signature="e#188#216#0" expanded="true" />
-                    <element signature="e#226#257#1" expanded="true" />
-                    <element signature="e#368#403#0" expanded="true" />
-                    <element signature="e#368#403#0" expanded="true" />
-                    <element signature="e#412#445#0" expanded="true" />
-                    <element signature="e#412#445#0" expanded="true" />
-                    <element signature="e#513#525#1" expanded="true" />
-                    <element signature="e#534#1242#0" expanded="true" />
-                    <element signature="e#539#553#1" expanded="true" />
-                    <element signature="e#534#1242#0" expanded="true" />
-                    <element signature="e#534#1242#0" expanded="true" />
-                    <element signature="e#534#1242#0" expanded="true" />
-                    <element signature="e#534#1242#0" expanded="true" />
-                    <element signature="e#650#679#1" expanded="true" />
-                    <element signature="e#971#1049#0" expanded="true" />
-                    <element signature="e#971#1049#0" expanded="true" />
-                    <element signature="e#1012#1034#0" expanded="true" />
-                    <element signature="e#1012#1034#0" expanded="true" />
-                    <element signature="e#1163#1232#0" expanded="true" />
-                    <element signature="e#1163#1232#0" expanded="true" />
-                    <element signature="e#1199#1217#0" expanded="true" />
-                    <element signature="e#1199#1217#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -93,28 +49,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
           <file leaf-file-name="DPTemplate.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/DPTemplate.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="27">
+                <state relative-caret-position="0">
                   <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DiceRollSumTest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="DiceRollSumTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/DiceRollSumTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="54">
-                  <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+                  <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LongestIncreasingSubsequenceTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LongestIncreasingSubsequenceTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/LongestIncreasingSubsequenceTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
@@ -149,10 +105,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="1924" />
+    <option name="y" value="43" />
+    <option name="width" value="1908" />
+    <option name="height" value="2109" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -179,6 +135,24 @@
             <path>
               <item name="day00" type="b2602c69:ProjectViewProjectNode" />
               <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day00" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,16 +164,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day01" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LongestIncreasingSubsequenceTest">
+  <component name="RunManager" selected="JUnit.DiceRollSumTest">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -384,10 +359,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest.testTwo" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest.testFour" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DiceRollSumTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiceRollSumTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest.testTwo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LongestIncreasingSubsequenceTest.testFour" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.All in day00" />
       </list>
     </recent_temporary>
@@ -414,11 +389,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LongestIncreasingSubsequenceTest - 2018.04.23 at 22h 34m 11s.xml">
-      <configuration name="LongestIncreasingSubsequenceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LongestIncreasingSubsequenceTest - 2018.04.23 at 22h 40m 03s.xml">
-      <configuration name="LongestIncreasingSubsequenceTest" configurationId="JUnit" />
+    <history-entry file="DiceRollSumTest - 2018.04.26 at 18h 30m 42s.xml">
+      <configuration name="DiceRollSumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LongestIncreasingSubsequenceTest - 2018.04.23 at 22h 46m 18s.xml">
       <configuration name="LongestIncreasingSubsequenceTest" configurationId="JUnit" />
@@ -435,6 +407,9 @@
     <history-entry file="LongestIncreasingSubsequenceTest - 2018.04.23 at 22h 58m 09s.xml">
       <configuration name="LongestIncreasingSubsequenceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LongestIncreasingSubsequenceTest - 2018.04.26 at 18h 30m 34s.xml">
+      <configuration name="LongestIncreasingSubsequenceTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="LongestIncreasingSubsequenceTest_testFour - 2018.04.23 at 22h 32m 46s.xml">
       <configuration name="LongestIncreasingSubsequenceTest.testFour" configurationId="JUnit" />
     </history-entry>
@@ -446,7 +421,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="35" width="3848" height="2129" extended-state="6" />
+    <frame x="1924" y="43" width="3848" height="2129" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -457,12 +432,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15605095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16003184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -489,30 +464,119 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MakingChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DPTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DiceRollSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LongestIncreasingSubsequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#387#0" expanded="true" />
+            <element signature="e#359#387#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MakingChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DPTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DiceRollSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LongestIncreasingSubsequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#387#0" expanded="true" />
+            <element signature="e#359#387#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding>
-            <element signature="e#147#196#1" expanded="true" />
-            <element signature="e#326#370#0" expanded="true" />
-            <element signature="e#326#370#0" expanded="true" />
-            <element signature="e#358#369#0" expanded="true" />
-            <element signature="e#358#369#0" expanded="true" />
-            <element signature="e#379#399#0" expanded="true" />
-            <element signature="e#379#399#0" expanded="true" />
-            <element signature="e#408#429#0" expanded="true" />
-            <element signature="e#408#429#0" expanded="true" />
-            <element signature="e#439#459#1" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#473#483#1" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#511#550#1" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,29 +586,6 @@
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#188#216#0" expanded="true" />
-            <element signature="e#188#216#0" expanded="true" />
-            <element signature="e#226#257#1" expanded="true" />
-            <element signature="e#368#403#0" expanded="true" />
-            <element signature="e#368#403#0" expanded="true" />
-            <element signature="e#412#445#0" expanded="true" />
-            <element signature="e#412#445#0" expanded="true" />
-            <element signature="e#513#525#1" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#539#553#1" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#650#679#1" expanded="true" />
-            <element signature="e#971#1049#0" expanded="true" />
-            <element signature="e#971#1049#0" expanded="true" />
-            <element signature="e#1012#1034#0" expanded="true" />
-            <element signature="e#1012#1034#0" expanded="true" />
-            <element signature="e#1163#1232#0" expanded="true" />
-            <element signature="e#1163#1232#0" expanded="true" />
-            <element signature="e#1199#1217#0" expanded="true" />
-            <element signature="e#1199#1217#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,47 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#147#196#1" expanded="true" />
-            <element signature="e#326#370#0" expanded="true" />
-            <element signature="e#326#370#0" expanded="true" />
-            <element signature="e#358#369#0" expanded="true" />
-            <element signature="e#358#369#0" expanded="true" />
-            <element signature="e#379#399#0" expanded="true" />
-            <element signature="e#379#399#0" expanded="true" />
-            <element signature="e#408#429#0" expanded="true" />
-            <element signature="e#408#429#0" expanded="true" />
-            <element signature="e#439#459#1" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#473#483#1" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#468#634#0" expanded="true" />
-            <element signature="e#511#550#1" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-            <element signature="e#563#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DPTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="0">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/DiceRollSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -685,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding>
-            <element signature="e#4629#4630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,33 +713,36 @@
     <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
-          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="28" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#188#216#0" expanded="true" />
-            <element signature="e#188#216#0" expanded="true" />
-            <element signature="e#226#257#1" expanded="true" />
-            <element signature="e#368#403#0" expanded="true" />
-            <element signature="e#368#403#0" expanded="true" />
-            <element signature="e#412#445#0" expanded="true" />
-            <element signature="e#412#445#0" expanded="true" />
-            <element signature="e#513#525#1" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#539#553#1" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#534#1242#0" expanded="true" />
-            <element signature="e#650#679#1" expanded="true" />
-            <element signature="e#971#1049#0" expanded="true" />
-            <element signature="e#971#1049#0" expanded="true" />
-            <element signature="e#1012#1034#0" expanded="true" />
-            <element signature="e#1012#1034#0" expanded="true" />
-            <element signature="e#1163#1232#0" expanded="true" />
-            <element signature="e#1163#1232#0" expanded="true" />
-            <element signature="e#1199#1217#0" expanded="true" />
-            <element signature="e#1199#1217#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/day00/DiceRollSum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DiceRollSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiceRollSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
