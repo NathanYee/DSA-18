@@ -1,78 +1,60 @@
 public class DungeonGame {
 
+    private static void printHealth(int[][] health) {
+        for (int i = 0; i < health.length; i++) {
+            for (int j = 0; j < health[0].length; j++) {
+                System.out.print(health[i][j]);
+                System.out.print(", ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+
+    // to step on square health[i][[j], you must have had ___ health
+    // to get to the lower value next square
+    // however, the final value must be greater or equal to 1
+    private static int getHealth(int[][] map, int[][] health, int i, int j) {
+        int right = health[i][j + 1] - map[i][j];
+        int down = health[i + 1][j] - map[i][j];
+        return Math.max(Math.min(right, down), 1);
+    }
+
     public static int minInitialHealth(int[][] map) {
 
-        int[][] currHealth = new int[map.length][map[0].length];
-        int[][] minHealth = new int[map.length][map[0].length];
+        int width = map[0].length;
+        int height = map.length;
+        int[][] health = new int[height + 1][width + 1];
 
-        // upper left corner
-        minHealth[0][0] = Math.max(1 - map[0][0], 1);
-        currHealth[0][0] = minHealth[0][0] + map[0][0];
-
-        // top row
-        for (int i = 1; i < map[0].length; i++) {
-            int lastMinHealth = minHealth[0][i - 1];
-            int lastCurrHealth = currHealth[0][i - 1];
-
-            // check to see if we currently have any health that we can use
-            if (lastCurrHealth + map[0][i] > 0) {
-                minHealth[0][i] = lastMinHealth;
-            } else {
-                minHealth[0][i] = lastMinHealth + 1 - lastCurrHealth - map[0][i];
-            }
-
-            // update current health
-            currHealth[0][i] = Math.max(lastCurrHealth + map[0][i], 1);
+        // set right column to infinity
+        for (int i = 0; i < height + 1; i++) {
+            health[i][width] = Integer.MAX_VALUE / 2;
         }
 
-        // left column
-        for (int i = 1; i < map.length; i++) {
-            int lastMinHealth = minHealth[i - 1][0];
-            int lastCurrHealth = currHealth[i - 1][0];
-
-            // check to see if we currently have any health that we can use
-            if (lastCurrHealth + map[i][0] > 0) {
-                minHealth[i][0] = lastMinHealth;
-            } else {
-                minHealth[i][0] = lastMinHealth + 1 - lastCurrHealth - map[i][0];
-            }
-
-            // update current health
-            currHealth[i][0] = Math.max(lastCurrHealth + map[i][0], 1);
+        // set bottom row to infinity
+        for (int i = 0; i < width + 1; i++) {
+            health[height][i] = Integer.MAX_VALUE / 2;
         }
 
-        // rest
-        for (int i = 1; i < map.length; i++) {
-            for (int j = 1; j < map[0].length; j++) {
+        // set the destination to:
+        // 1 - map[dest] if map is a negative number
+        // minimum 1 if map[dest] happens to be positive
+        health[height - 1][width - 1] = Math.max(1 - map[height - 1][width - 1], 1);
 
-                // determine what was the last min health and last current health
-                int lastMinHealth;
-                int lastCurrHealth;
+        for (int i = height - 1; i >= 0; i--) {
+            for (int j = width - 1; j >= 0; j--) {
 
-                // when on the last one - if map[i][j] is positive, we should always pick minHealth
-                // otherwise we might want the one that has overall more health
-                if (minHealth[i - 1][j] > minHealth[i][j - 1]) {
-                    lastMinHealth = minHealth[i][j - 1];
-                    lastCurrHealth = currHealth[i][j - 1];
-                } else if (minHealth[i - 1][j] < minHealth[i][j - 1]) {
-                    lastMinHealth = minHealth[i - 1][j];
-                    lastCurrHealth = currHealth[i - 1][j];
-                } else {
-                    lastMinHealth = minHealth[i][j - 1];
-                    lastCurrHealth = Math.max(currHealth[i][j - 1], currHealth[i - 1][j]);
+                // skip the destination
+                if (i == height - 1 && j == width - 1) {
+                    continue;
                 }
 
-                // check to see if we currently have any health that we can use
-                if (lastCurrHealth + map[i][j] > 0) {
-                    minHealth[i][j] = lastMinHealth;
-                } else {
-                    minHealth[i][j] = lastMinHealth + 1 - lastCurrHealth - map[i][j];
-                }
-
-                currHealth[i][j] = Math.max(lastCurrHealth + map[i][j], 1);
+                // get the health for at the current square
+                health[i][j] = getHealth(map, health, i, j);
             }
         }
 
-        return minHealth[map.length - 1][map[0].length - 1];
+        return health[0][0];
     }
 }
